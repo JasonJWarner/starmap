@@ -1,25 +1,85 @@
 /**
- * 开源地图 - SPA Application
+ * 星图 Starmap - SPA Application
  */
 (function() {
   'use strict';
 
+  // ===== Supabase Config =====
+  const SUPABASE_URL = 'https://vmgukrkydfxctgqpsspd.supabase.co';
+  const SUPABASE_ANON_KEY = 'sb_publishable_zmMt4QD-u4jDsW76PZv1Hw_MmOjGJFo';
+
   // ===== State =====
   let catalogData = null;
+  let tagsData = {};
   let currentView = 'home';
   let currentCategory = null;
   let currentSubCat = 'all';
   let currentSort = 'stars';
+  let currentDifficulty = 'all';
+  let unlockedRepos = new Set();
 
   // ===== DOM =====
   const app = document.getElementById('app');
   const searchInput = document.getElementById('searchInput');
 
+  // ===== Fingerprint =====
+  function getFingerprint() {
+    let fp = localStorage.getItem('starmap_fp');
+    if (!fp) {
+      fp = 'fp_' + Math.random().toString(36).substr(2, 9) + Date.now().toString(36);
+      localStorage.setItem('starmap_fp', fp);
+    }
+    return fp;
+  }
+
+  // ===== Track Unlock =====
+  async function trackUnlock(repoName, repoCategory) {
+    const fp = getFingerprint();
+    unlockedRepos.add(repoName);
+    saveUnlocked();
+    try {
+      await fetch(`${SUPABASE_URL}/rest/v1/unlock_events`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'apikey': SUPABASE_ANON_KEY,
+          'Authorization': `Bearer ${SUPABASE_ANON_KEY}`,
+          'Prefer': 'return=minimal'
+        },
+        body: JSON.stringify({
+          repo_name: repoName,
+          repo_category: repoCategory,
+          user_fingerprint: fp
+        })
+      });
+    } catch(e) {
+      console.log('Track unlock failed:', e);
+    }
+  }
+
+  // ===== Load/Save Unlocked =====
+  function loadUnlocked() {
+    const saved = localStorage.getItem('starmap_unlocked');
+    if (saved) {
+      try { unlockedRepos = new Set(JSON.parse(saved)); } catch(e) {}
+    }
+  }
+  function saveUnlocked() {
+    localStorage.setItem('starmap_unlocked', JSON.stringify([...unlockedRepos]));
+  }
+
   // ===== Data Loading =====
   async function loadData() {
     try {
-      const res = await fetch('data/catalog.json');
-      catalogData = await res.json();
+      const [catalogRes, tagsRes] = await Promise.all([
+        fetch('data/catalog.json'),
+        fetch('data/tags.json')
+      ]);
+      catalogData = await catalogRes.json();
+      if (tagsRes.ok) {
+        tagsData = await tagsRes.json();
+      }
+      loadUnlocked();
       init();
     } catch(e) {
       app.innerHTML = '<div class="empty-state"><div class="icon">😞</div><p>数据加载失败，请刷新重试</p></div>';
@@ -51,6 +111,11 @@
     }
   }
 
+  // ===== Get Repo Tags =====
+  function getRepoTags(repoName) {
+    return tagsData[repoName] || { difficulty: null, special: null };
+  }
+
   // ===== Render: Home =====
   function renderHome() {
     currentView = 'home';
@@ -59,7 +124,7 @@
 
     app.innerHTML = `
       <div class="hero">
-        <h1>🗺️ 开源地图</h1>
+        <h1>🗺️ 星图 Starmap</h1>
         <p>按你的需求，找到 GitHub 上的答案</p>
       </div>
       <div class="stats-bar">
@@ -110,6 +175,13 @@
           return `<button class="subcat-tab ${currentSubCat===sc?'active':''}" data-sub="${sc}">${sc} (${cnt})</button>`;
         }).join('')}
       </div>
+      <div class="filter-bar">
+        <span>难度：</span>
+        <button class="diff-filter ${currentDifficulty==='all'?'active':''}" data-diff="all">全部</button>
+        <button class="diff-filter ${currentDifficulty==='入门'?'active':''}" data-diff="入门">🟢 入门</button>
+        <button class="diff-filter ${currentDifficulty==='进阶'?'active':''}" data-diff="进阶">🟡 进阶</button>
+        <button class="diff-filter ${currentDifficulty==='专业'?'active':''}" data-diff="专业">🔴 专业</button>
+      </div>
       <div class="sort-bar">
         <span>排序：</span>
         <select id="sortSelect">
@@ -132,11 +204,49 @@
       });
     });
 
+    // Bind difficulty filters
+    app.querySelectorAll('.diff-filter').forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentDifficulty = btn.dataset.diff;
+        renderCategory(catId);
+      });
+    });
+
     // Bind sort
     document.getElementById('sortSelect').addEventListener('change', (e) => {
       currentSort = e.target.value;
       renderCategory(catId);
     });
+
+    // Bind unlock buttons
+    bindUnlockButtons();
+  }
+
+  // ===== Bind Unlock Buttons =====
+  function bindUnlockButtons() {
+    app.querySelectorAll('.unlock-btn').forEach(btn => {
+      btn.addEventListener('click', async () => {
+        const card = btn.closest('.project-card');
+        const repoName = card.dataset.repo;
+        const repoCat = card.dataset.cat;
+        await trackUnlock(repoName, repoCat);
+        // Re-render the card
+        const repo = findRepo(repoName);
+        if (repo) {
+          card.outerHTML = projectCard(repo);
+          bindUnlockButtons();
+        }
+      });
+    });
+  }
+
+  // ===== Find Repo by Name =====
+  function findRepo(repoName) {
+    for (const cat of catalogData.categories) {
+      const found = cat.repos.find(r => r.n === repoName);
+      if (found) return found;
+    }
+    return null;
   }
 
   // ===== Render: Search =====
@@ -171,12 +281,22 @@
         : `<div class="project-list">${sorted.map(r => projectCard(r, true)).join('')}</div>`
       }
     `;
+    bindUnlockButtons();
   }
 
   // ===== Helpers =====
   function getFilteredRepos(cat) {
-    if (currentSubCat === 'all') return cat.repos;
-    return cat.repos.filter(r => r.sc === currentSubCat);
+    let repos = cat.repos;
+    if (currentSubCat !== 'all') {
+      repos = repos.filter(r => r.sc === currentSubCat);
+    }
+    if (currentDifficulty !== 'all') {
+      repos = repos.filter(r => {
+        const tags = getRepoTags(r.n);
+        return tags.difficulty === currentDifficulty;
+      });
+    }
+    return repos;
   }
 
   function sortRepos(repos) {
@@ -197,22 +317,55 @@
   function projectCard(r, showCat) {
     const langClass = getLangClass(r.l);
     const shortName = r.n.split('/')[1] || r.n;
+    const tags = getRepoTags(r.n);
+    const isLocked = (tags.special === '偏门' || tags.special === '商业') && !unlockedRepos.has(r.n);
+    const cardClass = isLocked ? 'project-card locked' : 'project-card';
+    const catId = r._catId || (currentCategory ? currentCategory.id : '');
+
+    // 难度标签
+    let diffTag = '';
+    if (tags.difficulty) {
+      const diffMap = {
+        '入门': {icon:'🟢', cls:'tag-easy'},
+        '进阶': {icon:'🟡', cls:'tag-medium'},
+        '专业': {icon:'🔴', cls:'tag-hard'}
+      };
+      const d = diffMap[tags.difficulty];
+      if (d) diffTag = `<span class="diff-tag ${d.cls}">${d.icon} ${tags.difficulty}</span>`;
+    }
+
+    // 特殊标签
+    let specialTag = '';
+    if (tags.special) {
+      const spMap = {
+        '偏门': {icon:'⚠️', cls:'tag-edge'},
+        '商业': {icon:'💰', cls:'tag-commercial'}
+      };
+      const s = spMap[tags.special];
+      if (s) specialTag = `<span class="special-tag ${s.cls}">${s.icon} ${tags.special}</span>`;
+    }
+
     return `
-      <div class="project-card">
+      <div class="${cardClass}" data-repo="${escHtml(r.n)}" data-cat="${escHtml(catId)}">
+        ${isLocked ? '<div class="lock-overlay"><button class="unlock-btn">🔓 点击解锁</button><p class="lock-hint">此资源需要解锁后查看详情</p></div>' : ''}
         <div class="project-card-top">
           <span class="project-name">
-            <a href="${r.u}" target="_blank" rel="noopener">${escHtml(shortName)}</a>
+            ${isLocked 
+              ? `<span class="blurred-name">${escHtml(shortName)}</span>`
+              : `<a href="${r.u}" target="_blank" rel="noopener">${escHtml(shortName)}</a>`
+            }
             <span style="color:var(--gray-400);font-weight:400;font-size:.75rem"> / ${escHtml(r.n.split('/')[0]||'')}</span>
+            ${diffTag}${specialTag}
           </span>
           <span class="project-stars">⭐ ${r.sf}</span>
         </div>
-        <div class="project-desc">${escHtml(r.d)}</div>
-        <div class="project-meta">
+        <div class="project-desc ${isLocked ? 'blurred' : ''}">${escHtml(r.d)}</div>
+        <div class="project-meta ${isLocked ? 'blurred' : ''}">
           ${r.l ? `<span><span class="lang-dot ${langClass}"></span>${escHtml(r.l)}</span>` : ''}
           <span class="subcat-tag">${escHtml(r.sc)}</span>
           ${showCat ? `<span>${escHtml(r._cat||'')}</span>` : ''}
           ${r.p ? `<span>更新于 ${r.p}</span>` : ''}
-          <a href="${r.u}" target="_blank" rel="noopener" class="project-link">GitHub ↗</a>
+          ${!isLocked ? `<a href="${r.u}" target="_blank" rel="noopener" class="project-link">GitHub ↗</a>` : ''}
         </div>
       </div>
     `;

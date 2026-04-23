@@ -393,6 +393,114 @@ footer {
   .category-title h1 { font-size: 1.25rem; }
 }
 
+/* ===== Filter Bar (Difficulty) ===== */
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  font-size: .8125rem;
+  color: var(--gray-500);
+}
+.diff-filter {
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: .75rem;
+  border: 1px solid var(--gray-200);
+  background: #fff;
+  color: var(--gray-600);
+  cursor: pointer;
+  transition: all .15s;
+}
+.diff-filter:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+.diff-filter.active {
+  background: var(--blue);
+  color: #fff;
+  border-color: var(--blue);
+}
+
+/* ===== Tags ===== */
+.diff-tag, .special-tag {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 4px;
+  font-size: .6875rem;
+  font-weight: 500;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.diff-tag.tag-easy {
+  background: #ecfdf5;
+  color: #059669;
+}
+.diff-tag.tag-medium {
+  background: #fffbeb;
+  color: #d97706;
+}
+.diff-tag.tag-hard {
+  background: #fef2f2;
+  color: #dc2626;
+}
+.special-tag.tag-edge {
+  background: #fef3c7;
+  color: #92400e;
+}
+.special-tag.tag-commercial {
+  background: #f0fdf4;
+  color: #166534;
+}
+
+/* ===== Locked Card ===== */
+.project-card.locked {
+  position: relative;
+  overflow: hidden;
+}
+.lock-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: var(--radius);
+}
+.unlock-btn {
+  padding: 8px 24px;
+  border-radius: 999px;
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  font-size: .875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform .15s, box-shadow .15s;
+}
+.unlock-btn:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-md);
+}
+.lock-hint {
+  margin-top: 8px;
+  font-size: .75rem;
+  color: var(--gray-500);
+}
+.blurred {
+  filter: blur(4px);
+  user-select: none;
+  pointer-events: none;
+}
+.blurred-name {
+  filter: blur(4px);
+  user-select: none;
+}
+
 /* ===== Language Colors ===== */
 .lang-js { background: #f1e05a; }
 .lang-ts { background: #3178c6; }
