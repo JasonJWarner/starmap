@@ -1,31 +1,9278 @@
 {
-  "freeCodeCamp/freeCodeCamp": { "difficulty": "入门", "special": null },
-  "EbookFoundation/free-programming-books": { "difficulty": "入门", "special": null },
-  "jlevy/the-art-of-command-line": { "difficulty": "进阶", "special": null },
-  "donnemartin/system-design-primer": { "difficulty": "专业", "special": null },
-  "TheAlgorithms/Python": { "difficulty": "入门", "special": null },
-  "microsoft/vscode": { "difficulty": "专业", "special": null },
-  "appwrite/appwrite": { "difficulty": "进阶", "special": null },
-  "2dust/v2rayN": { "difficulty": "进阶", "special": "偏门" },
-  "v2fly/v2ray-core": { "difficulty": "专业", "special": "偏门" },
-  "vincenthsu/awesome-live-streaming": { "difficulty": "进阶", "special": "偏门" },
-  "iperov/DeepFaceLive": { "difficulty": "专业", "special": "偏门" },
-  "openai/openai-cookbook": { "difficulty": "进阶", "special": null },
-  "supabase/supabase": { "difficulty": "进阶", "special": null },
-  "obgnail/typora_plugin": { "difficulty": "进阶", "special": "偏门" },
-  "home-assistant/core": { "difficulty": "进阶", "special": null },
-  "shadowsocks/shadowsocks": { "difficulty": "进阶", "special": "偏门" },
-  "wailsapp/wails": { "difficulty": "专业", "special": null },
-  "denoland/deno": { "difficulty": "专业", "special": null },
-  "facebookresearch/llama": { "difficulty": "专业", "special": null },
-  "AUTOMATIC1111/stable-diffusion-webui": { "difficulty": "进阶", "special": null },
-  "goldbergyoni/nodebestpractices": { "difficulty": "进阶", "special": null },
-  "kamranahmedse/developer-roadmap": { "difficulty": "入门", "special": null },
-  "danistefanovic/build-your-own-x": { "difficulty": "进阶", "special": null },
-  "ohmyzsh/ohmyzsh": { "difficulty": "入门", "special": null },
-  "PaddlePaddle/PaddleOCR": { "difficulty": "专业", "special": null },
-  "flutter/flutter": { "difficulty": "进阶", "special": null },
-  "vercel/next.js": { "difficulty": "进阶", "special": null },
-  "electron/electron": { "difficulty": "进阶", "special": null },
-  "tauri-apps/tauri": { "difficulty": "进阶", "special": null }
+  "freeCodeCamp/freeCodeCamp": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "EbookFoundation/free-programming-books": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "jlevy/the-art-of-command-line": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "donnemartin/system-design-primer": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "TheAlgorithms/Python": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "microsoft/vscode": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "appwrite/appwrite": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "2dust/v2rayN": {
+    "difficulty": "进阶",
+    "special": "偏门"
+  },
+  "v2fly/v2ray-core": {
+    "difficulty": "专业",
+    "special": "偏门"
+  },
+  "vincenthsu/awesome-live-streaming": {
+    "difficulty": "进阶",
+    "special": "偏门"
+  },
+  "iperov/DeepFaceLive": {
+    "difficulty": "专业",
+    "special": "偏门"
+  },
+  "openai/openai-cookbook": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "supabase/supabase": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "obgnail/typora_plugin": {
+    "difficulty": "进阶",
+    "special": "偏门"
+  },
+  "home-assistant/core": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "shadowsocks/shadowsocks": {
+    "difficulty": "进阶",
+    "special": "偏门"
+  },
+  "wailsapp/wails": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "denoland/deno": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "facebookresearch/llama": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "AUTOMATIC1111/stable-diffusion-webui": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "goldbergyoni/nodebestpractices": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "kamranahmedse/developer-roadmap": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "danistefanovic/build-your-own-x": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ohmyzsh/ohmyzsh": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "PaddlePaddle/PaddleOCR": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "flutter/flutter": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "vercel/next.js": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "electron/electron": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "tauri-apps/tauri": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "trekhleb/javascript-algorithms": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Snailclimb/JavaGuide": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "yangshun/tech-interview-handbook": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "labuladong/fucking-algorithm": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "krahets/hello-algo": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "fastapi/fastapi": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "realworld-apps/realworld": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "bregman-arie/devops-exercises": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Developer-Y/cs-video-courses": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "doocs/advanced-java": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "enaqx/awesome-react": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "binhnguyennus/awesome-scalability": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "labmlai/annotated_deep_learning_paper_implementations": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Asabeneh/30-Days-Of-Python": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "youngyangyang04/leetcode-master": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "h5bp/Front-end-Developer-Interview-Questions": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "VoltAgent/awesome-design-md": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Solido/awesome-flutter": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "shareAI-lab/learn-claude-code": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "firstcontributions/first-contributions": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "poteto/hiring-without-whiteboards": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Asabeneh/30-Days-Of-JavaScript": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "sudheerj/reactjs-interview-questions": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "yangshun/front-end-interview-handbook": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "karanpratapsingh/system-design": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "byoungd/English-level-up-tips": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "payloadcms/payload": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "datawhalechina/hello-agents": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "eugenp/tutorials": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "0voice/interview_internal_reference": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "PKUanonym/REKCARC-TSC-UHT": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "AobingJava/JavaFamily": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ashishps1/awesome-system-design-resources": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "doocs/leetcode": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "DioxusLabs/dioxus": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "anthropics/prompt-eng-interactive-tutorial": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "TheAlgorithms/JavaScript": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "patchy631/ai-engineering-hub": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "pcottle/learnGitBranching": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "seaweedfs/seaweedfs": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "cfenollosa/os-tutorial": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "luongnv89/claude-howto": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Asabeneh/30-Days-Of-React": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "sudheerj/javascript-interview-questions": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "NirDiamant/RAG_Techniques": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "forthespada/CS-Books": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "haizlin/fe-interview": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "aishwaryanr/awesome-generative-ai-guide": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "kataras/iris": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "keon/algorithms": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "javascript-tutorial/en.javascript.info": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "deepset-ai/haystack": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Netflix/Hystrix": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "systemdesign42/system-design-academy": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "processing/p5.js": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ssloy/tinyrenderer": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ashishps1/awesome-low-level-design": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "volcengine/OpenViking": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "palantir/blueprint": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "recommenders-team/recommenders": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ruanyf/es6tutorial": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "NirDiamant/GenAI_Agents": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "MoienTajik/AspNetCore-Developer-Roadmap": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "NirDiamant/agents-towards-production": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "radix-ui/primitives": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "williamfiset/Algorithms": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "docker-mailserver/docker-mailserver": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "google-gemini/gemini-fullstack-langgraph-quickstart": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "TheAlgorithms/Go": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "nim-lang/Nim": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "unixorn/awesome-zsh-plugins": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "datawhalechina/leedl-tutorial": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "bharathgs/Awesome-pytorch-list": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ashishps1/awesome-leetcode-resources": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "joelparkerhenderson/architecture-decision-record": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "github/opensource.guide": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "iggredible/Learn-Vim": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "TanStack/router": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "blitz-js/blitz": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "mytechnotalent/Reverse-Engineering": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "cheat/cheat": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "dabeaz-course/python-mastery": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "TianxingChen/Embodied-AI-Guide": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "DataTalksClub/machine-learning-zoomcamp": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "primer/css": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ritchieng/the-incredible-pytorch": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "seanprashad/leetcode-patterns": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "amitshekhariitbhu/android-interview-questions": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "rzashakeri/beautify-github-profile": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "linnovate/mean": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "madd86/awesome-system-design": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "AkashSingh3031/The-Complete-FAANG-Preparation": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "NielsRogge/Transformers-Tutorials": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "leandromoreira/ffmpeg-libav-tutorial": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "1c7/Crash-Course-Computer-Science-Chinese": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "javascript-tutorial/zh.javascript.info": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "OffcierCia/DeFi-Developer-Road-Map": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "akveo/react-native-ui-kitten": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "dabeaz-course/practical-python": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Yorko/mlcourse.ai": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "microsoft/fluentui-system-icons": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "cp-algorithms/cp-algorithms": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "YSGStudyHards/DotNetGuide": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "cgao96/leetcode_101": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "alexeygrigorev/data-science-interviews": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "daliansky/Hackintosh": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "DouyinFE/semi-design": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "deepseek-ai/3FS": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "mcp-use/mcp-use": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "bottlerocket-os/bottlerocket": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ChenYilong/iOSInterviewQuestions": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "olistic/warriorjs": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "roboflow/notebooks": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "greatfrontend/top-javascript-interview-questions": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "codeguy/php-the-right-way": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mui/base-ui": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "happyfish100/fastdfs": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Tikam02/DevOps-Guide": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "pytorch/tutorials": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "carbon-design-system/carbon": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "catboost/catboost": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "lazyprogrammer/machine_learning_examples": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "mxssl/sre-interview-prep-guide": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "EndlessCheng/codeforces-go": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "krahets/LeetCode-Book": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "akveo/nebular": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "greatfrontend/awesome-front-end-system-design": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "alirezadir/Machine-Learning-Interviews": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "total-typescript/beginners-typescript-tutorial": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "skydoves/android-developer-roadmap": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "itcharge/AlgoNote": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "InsForge/InsForge": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "SharingSource/LogicStack-LeetCode": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "NirDiamant/Prompt_Engineering": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "JoseDeFreitas/awesome-youtubers": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "greyhatguy007/Machine-Learning-Specialization-Coursera": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "uswds/uswds": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "railsgirls/guides.railsgirls.com": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "rabbitmq/rabbitmq-tutorials": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "patriciogonzalezvivo/thebookofshaders": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "agmmnn/awesome-blender": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "kubernetes/examples": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "unovue/reka-ui": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "zubair-trabzada/geo-seo-claude": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "golang-design/go-questions": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "neetcode-gh/leetcode": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "liuxinyu95/AlgoXY": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "wisdompeak/LeetCode": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "aalhour/C-Sharp-Algorithms": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "enhorse/java-interview": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "zhaochenyang20/Awesome-ML-SYS-Tutorial": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "chakra-ui/panda": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "prakhar1989/docker-curriculum": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "skeletonlabs/skeleton": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "datawhalechina/easy-vibe": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Permify/permify": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "teivah/algodeck": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ksundong/backend-interview-question": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Xtremilicious/projectlearn-project-based-learning": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "guangzhengli/k8s-tutorials": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "AboutRSS/ALL-about-RSS": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "lifei6671/interview-go": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "weeeBox/mobile-system-design": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "forhappy/Cplusplus-Concurrency-In-Practice": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ghuntley/how-to-build-a-coding-agent": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Superalgos/Superalgos": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "liyupi/mianshiya": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "greatfrontend/top-reactjs-interview-questions": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "louisfb01/start-machine-learning": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "liangxiegame/QFramework": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "kamyu104/LeetCode-Solutions": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "realpython/materials": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "shfshanyue/Daily-Question": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "chakra-ui/ark": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "chakra-ui/zag": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "taubyte/tau": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "liquidslr/system-design-notes": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "roboflow/sports": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "amitshekhariitbhu/RxJava2-Android-Samples": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "sudheerj/angular-interview-questions": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "loiane/javascript-datastructures-algorithms": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "openmlsys/openmlsys": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "SadeghHayeri/GreenTunnel": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ombharatiya/FAANG-Coding-Interview-Questions": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ronreiter/interactive-tutorials": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "jaywcjlove/mysql-tutorial": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mouredev/python-web": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "datawhalechina/vibe-vibe": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "antonputra/tutorials": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "gin-gonic/examples": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "s4kibs4mi/java-developer-roadmap": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "sadanandpai/javascript-code-challenges": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "codeedu/wsl2-docker-quickstart": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "layumi/Person_reID_baseline_pytorch": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "tomlooman/ActionRoguelike": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "wangdoc/bash-tutorial": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "awangdev/leet-code": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "he4rt/4noobs": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "javabuddy/best-system-design-resources": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "dwyl/learn-json-web-tokens": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "xianyu110/awesome-openclaw-tutorial": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "hendricius/the-bread-code": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "xiaotudui/pytorch-tutorial": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "heilcheng/awesome-agent-skills": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "nas5w/interview-guide": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "eunomia-bpf/bpf-developer-tutorial": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "javascript-tutorial/ru.javascript.info": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "sgl-project/mini-sglang": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "NanmiCoder/CrawlerTutorial": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "MAZHARMIK/Interview_DS_Algo": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "shuzijun/leetcode-editor": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "skyzh/mini-lsm": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "adongwanai/AgentGuide": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "daveebbelaar/ai-cookbook": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "jpetazzo/container.training": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "rohitg00/ai-engineering-from-scratch": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "tyroprogrammer/learn-react-app": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "primer/react": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "skygragon/leetcode-cli": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Tencent/tdesign": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "salesforce-ux/design-system": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "oskardudycz/EventSourcing.NetCore": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "FlorianBruniaux/claude-code-ultimate-guide": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "leandromoreira/cdn-up-and-running": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "elixirschool/elixirschool": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Overv/VulkanTutorial": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Foso/Jetpack-Compose-Playground": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "SmartToolFactory/Jetpack-Compose-Tutorials": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "milanm/DotNet-Developer-Roadmap": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "snehasishroy/leetcode-companywise-interview-questions": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "fragglet/c-algorithms": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "eosphoros-ai/Awesome-Text2SQL": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ShahjalalShohag/code-library": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "duoan/TorchCode": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "6boris/awesome-golang-algorithm": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "girafe-ai/ml-course": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "salmer/CppDeveloperRoadmap": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "microsoft/WinUI-Gallery": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ethen8181/machine-learning": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "eclipse-threadx/threadx": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "BlockchainCommons/Learning-Bitcoin-from-the-Command-Line": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "pguso/ai-agents-from-scratch": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "banach-space/llvm-tutor": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "tomlooman/EpicSurvivalGame": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "MTrajK/coding-problems": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "thomaspark/gridgarden": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "SkyworkAI/DeepResearchAgent": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "zhashkevych/awesome-backend": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "orangeduck/BuildYourOwnLisp": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "mouse0w0/MinecraftDeveloperGuide": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "SolaceLabs/solace-agent-mesh": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "subhashchy/The-Accidental-CTO": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "remult/remult": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "dotnet/interactive": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "scipy-lectures/scientific-python-lectures": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "wx-chevalier/Developer-Zero-To-Mastery": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "begeekmyfriend/leetcode": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "phlippe/uvadlc_notebooks": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "analogjs/analog": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "aspen-cloud/triplit": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "openclaw/openclaw": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "n8n-io/n8n": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Significant-Gravitas/AutoGPT": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ollama/ollama": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "affaan-m/everything-claude-code": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "f/prompts.chat": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "huggingface/transformers": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "langflow-ai/langflow": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "langgenius/dify": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "x1xhlol/system-prompts-and-models-of-ai-tools": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "langchain-ai/langchain": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "open-webui/open-webui": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "firecrawl/firecrawl": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Comfy-Org/ComfyUI": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Shubhamsaboo/awesome-llm-apps": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ggml-org/llama.cpp": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "google-gemini/gemini-cli": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "NousResearch/hermes-agent": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "rasbt/LLMs-from-scratch": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "browser-use/browser-use": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ChatGPTNextWeb/NextChat": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "opencv/opencv": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "msitarzewski/agency-agents": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "infiniflow/ragflow": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mlabonne/llm-course": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "vllm-project/vllm": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "lobehub/lobehub": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "karpathy/autoresearch": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "redis/redis": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "dair-ai/Prompt-Engineering-Guide": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "OpenHands/OpenHands": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "binary-husky/gpt_academic": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "hiyouga/LlamaFactory": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "AppFlowy-IO/AppFlowy": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "FoundationAgents/MetaGPT": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "OpenBB-finance/OpenBB": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "xtekky/gpt4free": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "unclecode/crawl4ai": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "keras-team/keras": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "pathwaycom/pathway": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "thedotmack/claude-mem": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "bytedance/deer-flow": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "unslothai/unsloth": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "opendatalab/MinerU": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "multica-ai/andrej-karpathy-skills": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "pathwaycom/llm-app": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Mintplex-Labs/anything-llm": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "microsoft/autogen": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "microsoft/ai-agents-for-beginners": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "RVC-Boss/GPT-SoVITS": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "harry0703/MoneyPrinterTurbo": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ComposioHQ/awesome-claude-skills": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "gsd-build/get-shit-done": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mem0ai/mem0": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "upstash/context7": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "code-yeongyu/oh-my-openagent": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "sansan0/TrendRadar": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "FlowiseAI/Flowise": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "TauricResearch/TradingAgents": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "crewAIInc/crewAI": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ggml-org/whisper.cpp": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "run-llama/llama_index": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "MemPalace/mempalace": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "oobabooga/textgen": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "shanraisshan/claude-code-best-practice": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "jeecgboot/JeecgBoot": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mudler/LocalAI": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "apache/airflow": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "upscayl/upscayl": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "BerriAI/litellm": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "milvus-io/milvus": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "CherryHQ/cherry-studio": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "zhayujie/CowAgent": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "aaif-goose/goose": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ray-project/ray": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "deepspeedai/DeepSpeed": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "janhq/jan": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Fission-AI/OpenSpec": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "microsoft/qlib": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "danielmiessler/Fabric": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "microsoft/VibeVoice": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "HKUDS/nanobot": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "hesreallyhim/awesome-claude-code": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "agno-agi/agno": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "chatboxai/chatbox": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "2noise/ChatTTS": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mindsdb/mindsdb": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "asgeirtj/system_prompts_leaks": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "JuliusBrussee/caveman": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "microsoft/BitNet": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "roboflow/supervision": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "D4Vinci/Scrapling": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "chatchat-space/Langchain-Chatchat": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ToolJet/ToolJet": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "badlogic/pi-mono": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "huggingface/pytorch-image-models": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "santifer/career-ops": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "danny-avila/LibreChat": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "google/langextract": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "1Panel-dev/1Panel": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "khoj-ai/khoj": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ItzCrazyKns/Vane": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "HKUDS/LightRAG": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "TabbyML/tabby": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "huggingface/diffusers": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "alibaba/nacos": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "OpenBMB/ChatDev": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "lutzroeder/netron": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "continuedev/continue": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "PostHog/posthog": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ruvnet/ruflo": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "microsoft/graphrag": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "songquanpeng/one-api": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "conductor-oss/conductor": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ZhuLinsen/daily_stock_analysis": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "qdrant/qdrant": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "github/awesome-copilot": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "safishamsi/graphify": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "zeroclaw-labs/zeroclaw": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "CopilotKit/CopilotKit": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "AstrBotDevs/AstrBot": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "datawhalechina/self-llm": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "vercel-labs/agent-browser": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "rtk-ai/rtk": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "langchain-ai/langgraph": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "bytedance/UI-TARS-desktop": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "datawhalechina/happy-llm": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "lightpanda-io/browser": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ashishpatel26/500-AI-Agents-Projects": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nrwl/nx": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "abhigyanpatwari/GitNexus": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "fastai/fastai": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Budibase/budibase": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "simstudioai/sim": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ComposioHQ/composio": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "labring/FastGPT": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "microsoft/semantic-kernel": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "onyx-dot-app/onyx": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "QuantumNous/new-api": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "router-for-me/CLIProxyAPI": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "QwenLM/Qwen3": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "invoke-ai/InvokeAI": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "assafelovic/gpt-researcher": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "linshenkx/prompt-optimizer": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "warpdotdev/Warp": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "WZMIAOMIAO/deep-learning-for-image-processing": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "sgl-project/sglang": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "gitleaks/gitleaks": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Fosowl/agenticSeek": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "SillyTavern/SillyTavern": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "VectifyAI/PageIndex": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "mlflow/mlflow": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "onlook-dev/onlook": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Cinnamon/kotaemon": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "HandsOnLLM/Hands-On-Large-Language-Models": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "langfuse/langfuse": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "getzep/graphiti": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "googleworkspace/cli": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "zai-org/Open-AutoGLM": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nextai-translator/nextai-translator": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "hsliuping/TradingAgents-CN": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "usestrix/strix": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mozilla-ai/llamafile": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "liguodongiot/llm-action": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "agentscope-ai/agentscope": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "toon-format/toon": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "AlexsJones/llmfit": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "PaddlePaddle/Paddle": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "yamadashy/repomix": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "vercel/ai": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "QwenLM/qwen-code": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "sinaptik-ai/pandas-ai": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ScrapeGraphAI/Scrapegraph-ai": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "RooCodeInc/Roo-Code": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "facebookresearch/audiocraft": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "charmbracelet/crush": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mastra-ai/mastra": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "oraios/serena": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "openai/openai-agents-python": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "apify/crawlee": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mvanhorn/last30days-skill": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "PromtEngineer/localGPT": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "iOfficeAI/AionUi": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "letta-ai/letta": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "browserbase/stagehand": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "coreyhaines31/marketingskills": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "activepieces/activepieces": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "guidance-ai/guidance": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "enescingoz/awesome-n8n-templates": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Skyvern-AI/skyvern": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "langchain-ai/deepagents": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "QwenLM/Qwen": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "jamiepine/voicebox": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "1Panel-dev/MaxKB": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "coze-dev/coze-studio": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "qax-os/excelize": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "promptfoo/promptfoo": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "dyad-sh/dyad": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "AccumulateMore/CV": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "HKUDS/DeepTutor": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "openai/gpt-oss": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "cube-js/cube": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "wavetermdev/waveterm": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "AI4Finance-Foundation/FinGPT": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "p-e-w/heretic": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Unity-Technologies/ml-agents": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Avaiga/taipy": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "google/adk-python": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "SWE-agent/SWE-agent": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "QwenLM/Qwen3-VL": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "comet-ml/opik": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "coleam00/Archon": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "dzhng/deep-research": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "eosphoros-ai/DB-GPT": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Kilo-Org/kilocode": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "meta-llama/llama-cookbook": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "screenpipe/screenpipe": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "opendataloader-project/opendataloader-pdf": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "elizaOS/eliza": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "microsoft/AirSim": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "huggingface/trl": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "emcie-co/parlant": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "arc53/DocsGPT": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Panniantong/Agent-Reach": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "addyosmani/agent-skills": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mrdbourke/pytorch-deep-learning": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "BradyFU/Awesome-Multimodal-Large-Language-Models": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "pytorch/vision": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "NLP-LOVE/ML-NLP": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "leon-ai/leon": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "NVIDIA-NeMo/NeMo": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "agent0ai/agent-zero": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "topoteretes/cognee": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "QwenLM/Qwen3-Coder": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "HKUDS/RAG-Anything": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "raga-ai-hub/RagaAI-Catalyst": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "QwenLM/Qwen-Agent": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "NVIDIA/Megatron-LM": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "weaviate/weaviate": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "camenduru/stable-diffusion-webui-colab": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "microsoft/mcp-for-beginners": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "langbot-app/LangBot": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "AsyncFuncAI/deepwiki-open": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "dagger/dagger": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "agentscope-ai/QwenPaw": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "getmaxun/maxun": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ty4z2008/Qix": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "memvid/memvid": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Canner/WrenAI": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "tracel-ai/burn": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "llmware-ai/llmware": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "googleapis/mcp-toolbox": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "botpress/botpress": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "n8n-io/self-hosted-ai-starter-kit": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "triggerdotdev/trigger.dev": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "deeplearning4j/deeplearning4j": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "janishar/mit-deep-learning-book-pdf": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ConardLi/easy-dataset": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Tencent/WeKnora": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "MODSetter/SurfSense": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "carla-simulator/carla": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "OpenNHP/opennhp": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Tencent-Hunyuan/Hunyuan3D-2": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "trycua/cua": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "vibrantlabsai/ragas": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "NVIDIA/TensorRT-LLM": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "babalae/better-genshin-impact": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "MemoriLabs/Memori": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "coleam00/context-engineering-intro": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "PaddlePaddle/PaddleFormers": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ageron/handson-ml3": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "NVIDIA/TensorRT": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "yusufkaraaslan/Skill_Seekers": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "rowboatlabs/rowboat": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "duixcom/Duix-Avatar": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "jacobgil/pytorch-grad-cam": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "web-infra-dev/midscene": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nanobrowser/nanobrowser": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "datawhalechina/llm-universe": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "GreyDGL/PentestGPT": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "PaddlePaddle/PaddleSpeech": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "microsoft/RD-Agent": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "neuml/txtai": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "modelscope/DiffSynth-Studio": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "EleutherAI/lm-evaluation-harness": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "PKU-YuanGroup/Open-Sora-Plan": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "liyupi/ai-guide": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ubicloud/ubicloud": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "TheR1D/shell_gpt": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "JCodesMore/ai-website-cloner-template": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "NoFxAiOS/nofx": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "creativetimofficial/ui": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "e2b-dev/E2B": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ludwig-ai/ludwig": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "langchain4j/langchain4j": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "simonw/llm": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "saturndec/waoowaoo": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "qubvel-org/segmentation_models.pytorch": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "cleanlab/cleanlab": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "pipecat-ai/pipecat": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "dataelement/bisheng": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "tirth8205/code-review-graph": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "codexu/note-gen": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "hangwin/mcp-chrome": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "YouMind-OpenLab/awesome-nano-banana-pro-prompts": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "tensorzero/tensorzero": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Zackriya-Solutions/meetily": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "kornia/kornia": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "tambo-ai/tambo": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Usagi-org/ai-goofish-monitor": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "yichuan-w/LEANN": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "go-vgo/robotgo": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "MoonshotAI/Kimi-K2": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "thu-ml/tianshou": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "lucidrains/denoising-diffusion-pytorch": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "elie222/inbox-zero": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "TEN-framework/ten-framework": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "YaoFANGUK/video-subtitle-remover": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "easydiffusion/easydiffusion": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "oramasearch/orama": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ostris/ai-toolkit": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Arindam200/awesome-ai-apps": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "openvinotoolkit/openvino": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "satellite-image-deep-learning/techniques": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "aden-hive/hive": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "blinkospace/blinko": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "oceanbase/oceanbase": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "sigoden/aichat": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "facebookresearch/pytorch3d": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ZeroLu/awesome-nanobanana-pro": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "roboticcam/machine-learning-notes": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "gorse-io/gorse": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "langchain-ai/open-swe": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "vwxyzjn/cleanrl": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "assistant-ui/assistant-ui": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "alibaba/zvec": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Oneflow-Inc/oneflow": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ntegrals/openbrowser": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "udlbook/udlbook": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Tiiny-AI/PowerInfer": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "PaddlePaddle/PaddleSeg": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "keras-team/autokeras": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "AirtestProject/Airtest": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "xorbitsai/inference": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "activeloopai/deeplake": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "lencx/Noi": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "apify/crawlee-python": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "davidkimai/Context-Engineering": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "OpenSPG/KAG": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "FoundationVision/VAR": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "CoplayDev/unity-mcp": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "MITDeepLearning/introtodeeplearning": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "bentoml/BentoML": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "OptimalScale/LMFlow": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "MemTensor/MemOS": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Future-House/paper-qa": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "nl8590687/ASRT_SpeechRecognition": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "VoltAgent/voltagent": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "0x4m4/hexstrike-ai": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "bitsandbytes-foundation/bitsandbytes": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "WangRongsheng/awesome-LLM-resources": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "shenweichen/DeepCTR": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "BoundaryML/baml": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "jessevig/bertviz": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "LykosAI/StabilityMatrix": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "webiny/webiny-js": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "NexaAI/nexa-sdk": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "idosal/git-mcp": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "bytedance/flowgram.ai": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "TheLastBen/fast-stable-diffusion": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Sygil-Dev/sygil-webui": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "MochiDiffusion/MochiDiffusion": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "nadermx/backgroundremover": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Upsonic/Upsonic": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "SciPhi-AI/R2R": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "zilliztech/deep-searcher": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "wang-xinyu/tensorrtx": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "firerpa/lamda": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "weaviate/Verba": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ai-boost/awesome-prompts": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Azure-Samples/azure-search-openai-demo": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mrexodia/ida-pro-mcp": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "google/adk-go": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "kreuzberg-dev/kreuzberg": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "coroot/coroot": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "h2oai/h2o-3": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "hybridgroup/gocv": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "GoogleCloudPlatform/kubectl-ai": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "EleutherAI/gpt-neox": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "evidentlyai/evidently": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "di-sukharev/opencommit": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "nullclaw/nullclaw": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "liuliu/ccv": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "apache/hertzbeat": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "poloclub/transformer-explainer": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "liyupi/codefather": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Orchestra-Research/AI-Research-SKILLs": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "wanshuiyin/Auto-claude-code-research-in-sleep": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "arcee-ai/mergekit": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "feast-dev/feast": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "0xPlaygrounds/rig": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "MervinPraison/PraisonAI": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mylxsw/aidea": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "enricoros/big-AGI": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "cocoindex-io/cocoindex": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "open-compass/opencompass": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "vespa-engine/vespa": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "steel-dev/steel-browser": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "53AI/53AIHub": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "AI4Finance-Foundation/FinRobot": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "guardrails-ai/guardrails": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "deepchem/deepchem": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "grab/cursor-talk-to-figma-mcp": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "tailcallhq/forgecode": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "albertan017/LLM4Decompile": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "crestalnetwork/intentkit": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "open-mmlab/mmcv": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "openMVG/openMVG": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "datawhalechina/all-in-rag": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "luhengshiwo/LLMForEverybody": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "josStorer/RWKV-Runner": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "superdesigndev/superdesign": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ufoym/deepo": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "e2b-dev/fragments": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "airweave-ai/airweave": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "iflytek/astron-rpa": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "gsd-build/gsd-2": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "11cafe/jaaz": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "aimhubio/aim": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "timeseriesAI/tsai": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "mindee/doctr": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "github/CopilotForXcode": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "zilliztech/claude-context": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "JerryZLiu/Dayflow": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "dataease/SQLBot": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ByteDance-Seed/Bagel": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "DearVa/Everywhere": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "genkit-ai/genkit": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "alibaba/AliSQL": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "leejet/stable-diffusion.cpp": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "maziarraissi/PINNs": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "promptslab/Awesome-Prompt-Engineering": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "aidlearning/AidLearning-FrameWork": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "georgezouq/awesome-ai-in-finance": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Drakkar-Software/OctoBot": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Klavis-AI/klavis": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ThinkInAIXYZ/deepchat": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "NVIDIA/DALI": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "showlab/Awesome-Video-Diffusion": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "clusterzx/paperless-ai": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "DeepLabCut/DeepLabCut": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "lonePatient/awesome-pretrained-chinese-nlp-models": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "coleam00/ottomator-agents": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "chenhg5/cc-connect": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "yournextstore/yournextstore": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "flybywiresim/aircraft": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "shibing624/MedicalGPT": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Anil-matcha/Open-Generative-AI": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "memovai/mimiclaw": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nanbingxyz/5ire": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "CCOSTAN/Home-AssistantConfig": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "InternLM/xtuner": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "NVIDIAGameWorks/kaolin": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "AILab-CVC/VideoCrafter": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "osaurus-ai/osaurus": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "naganandy/graph-based-deep-learning-literature": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Deci-AI/super-gradients": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "jlcodes99/cockpit-tools": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "AIDC-AI/ComfyUI-Copilot": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "SCIR-HI/Huatuo-Llama-Med-Chinese": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "cloudflare/vibesdk": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Kodezi/Chronos": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "transformerlab/transformerlab-app": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "huggingface/deep-rl-class": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "KaiyangZhou/deep-person-reid": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "deepjavalibrary/djl": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Picovoice/porcupine": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "KalyanM45/AI-Project-Gallery": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "dtyq/magic": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "aipotheosis-labs/aci": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Arthur-Ficial/apfel": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nateraw/stable-diffusion-videos": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "baserow/baserow": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "huggingface/speech-to-speech": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "PKU-Alignment/align-anything": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "yangjian102621/geekai": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "objectbox/objectbox-java": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "promptslab/Promptify": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "andrewekhalel/MLQuestions": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Integuru-AI/Integuru": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "u14app/deep-research": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "casibase/casibase": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "infiniflow/infinity": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "OpenNMT/CTranslate2": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "vllm-project/vllm-omni": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "xlite-dev/lite.ai.toolkit": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "openvinotoolkit/open_model_zoo": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "GT-RIPL/Awesome-LLM-Robotics": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "LearningCircuit/local-deep-research": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "AI4Finance-Foundation/ElegantRL": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "huggingface/diffusion-models-class": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "deepseek-ai/Engram": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "gptme/gptme": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "HelixDB/helix-db": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "lululxvi/deepxde": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "open-compass/VLMEvalKit": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "unum-cloud/USearch": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "facebookresearch/dlrm": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "magnitudedev/browser-agent": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ModelTC/LightLLM": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "mcmonkeyprojects/SwarmUI": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "CaviraOSS/OpenMemory": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "yuruotong1/autoMate": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "skydoves/chatgpt-android": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "OpenHealthForAll/open-health": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Nixtla/nixtla": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "crmne/ruby_llm": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "CyberAlbSecOP/Awesome_GPT_Super_Prompting": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "AlexAnys/awesome-openclaw-usecases-zh": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "YILS-LIN/short-video-factory": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "nunchaku-ai/nunchaku": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "google-research/scenic": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "NVlabs/VILA": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "askrella/whatsapp-chatgpt": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "abhi1693/openclaw-mission-control": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "chartbrew/chartbrew": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ML-GSAI/LLaDA": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "haris-musa/excel-mcp-server": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "SciSharp/LLamaSharp": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "PlexPt/chatgpt-java": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "apache/singa": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "lemonade-sdk/lemonade": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "IBM/mcp-context-forge": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "darrenhinde/OpenAgentsControl": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "facebookresearch/pytorchvideo": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "TracecatHQ/tracecat": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "thu-ml/TurboDiffusion": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "thu-pacman/chitu": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "shenweichen/DeepCTR-Torch": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "alicevision/AliceVision": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "deta/surf": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "TransformerLensOrg/TransformerLens": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "NVIDIA/TransformerEngine": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "gptscript-ai/gptscript": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Kedreamix/Linly-Talker": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Jittor/jittor": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "johnbean393/Sidekick": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "DevAgentForge/Open-Claude-Cowork": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Josh-XT/AGiXT": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "SkyworkAI/Skywork-R1V": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ARM-software/ComputeLibrary": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ddz16/TSFpaper": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "z-x-yang/Segment-and-Track-Anything": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "PacktPublishing/Deep-Reinforcement-Learning-Hands-On": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "alibaba/ROLL": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Meirtz/Awesome-Context-Engineering": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "guillaume-be/rust-bert": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "webdataset/webdataset": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "automeris-io/WebPlotDigitizer": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "hegelai/prompttools": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "cheshire-cat-ai/core": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "xbpeng/DeepMimic": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "CodeGraphContext/CodeGraphContext": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "pinecone-io/examples": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Tencent-Hunyuan/HunyuanImage-3.0": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "awesome-selfhosted/awesome-selfhosted": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "rustdesk/rustdesk": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "hoppscotch/hoppscotch": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "localsend/localsend": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "toeverything/AFFiNE": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nocodb/nocodb": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "coollabsio/coolify": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "OpenCut-app/OpenCut": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "makeplane/plane": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "siyuan-note/siyuan": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "umami-software/umami": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "awesome-foss/awesome-sysadmin": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Dokploy/dokploy": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "siddharthvaddem/openscreen": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "chatwoot/chatwoot": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "qwibitai/nanoclaw": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "SigNoz/signoz": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mattermost-community/focalboard": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "typesense/typesense": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "hcengineering/platform": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Lissy93/dashy": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "plausible/analytics": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "dataease/dataease": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "matomo-org/matomo": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "teableio/teable": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "anderspitman/awesome-tunneling": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "docmost/docmost": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "iv-org/invidious": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "openobserve/openobserve": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "pluja/awesome-privacy": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "CapSoftware/Cap": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "windmill-labs/windmill": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "apitable/apitable": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "supertokens/supertokens-core": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "streetwriters/notesnook": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "different-ai/openwork": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "automatisch/automatisch": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "eigent-ai/eigent": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "zedeus/nitter": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "documenso/documenso": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "formbricks/formbricks": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "rybbit-io/rybbit": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "manticoresoftware/manticoresearch": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "docusealco/docuseal": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "libre-tube/LibreTube": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "quickwit-oss/quickwit": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "FerretDB/FerretDB": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "huggingface/chat-ui": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Open-Dev-Society/OpenStock": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "browseros-ai/BrowserOS": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "centrifugal/centrifugo": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "TeamPiped/Piped": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "BlinkDL/ChatRWKV": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Lissy93/awesome-privacy": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "webadderall/Recordly": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "nhost/nhost": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "iib0011/omni-tools": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Atarity/deploy-your-own-saas": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "teamhanko/hanko": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Freika/dawarich": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "webstudio-is/webstudio": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "mfts/papermark": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "fonoster/fonoster": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "stack-auth/stack-auth": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "souzatharsis/podcastfy": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "OpenSignLabs/OpenSign": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "piotrkulpinski/openalternative": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ronitsingh10/FineTune": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Openpanel-dev/openpanel": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "isso-comments/isso": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "colanode/colanode": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "presenton/presenton": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "jitsucom/jitsu": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "kanbn/kan": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "rudderlabs/rudder-server": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "open-pencil/open-pencil": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "kubero-dev/kubero": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "freescout-help-desk/freescout": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "usesend/useSend": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ivre/ivre": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Volmarg/personal-management-system": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "javahuang/SurveyKing": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "libredirect/browser_extension": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "octelium/octelium": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "LimeSurvey/LimeSurvey": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "vidstack/player": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "actionsflow/actionsflow": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "TomBadash/Mouser": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Kanaries/graphic-walker": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "breezedeus/Pix2Text": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "thomiceli/opengist": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "AIDotNet/OpenDeepWiki": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "msgbyte/tianji": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "HeyWillow/willow": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "yt-dlp/yt-dlp": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "jaywcjlove/awesome-mac": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "zed-industries/zed": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "bradtraversy/design-resources-for-developers": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "alacritty/alacritty": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "soimort/you-get": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "marktext/marktext": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "laurent22/joplin": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "termux/termux-app": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ghostty-org/ghostty": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "serhii-londar/open-source-mac-os-apps": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "microsoft/monaco-editor": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "iina/iina": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "files-community/Files": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mifi/lossless-cut": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "videojs/video.js": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "imputnet/cobalt": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "lapce/lapce": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "CorentinTh/it-tools": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "RSSNext/Folo": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "sxyazi/yazi": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "qbittorrent/qBittorrent": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mpv-player/mpv": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "qier222/YesPlayMusic": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "cursor/cursor": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "pear-devs/pear-desktop": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "iawia002/lux": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "refined-github/refined-github": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "VSCodium/vscodium": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "webtorrent/webtorrent": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nvim-lua/kickstart.nvim": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Wox-launcher/Wox": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "JunkFood02/Seal": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "SDWebImage/SDWebImage": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "wezterm/wezterm": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Swordfish90/cool-retro-term": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "responsively-org/responsively-app": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "spotDL/spotify-downloader": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "GopeedLab/gopeed": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "CodeEditApp/CodeEdit": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "jarun/nnn": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "CarGuo/GSYVideoPlayer": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "AutomaApp/automa": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "gildas-lormeau/SingleFile": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "apollographql/apollo-client": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "p0deje/Maccy": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "xifangczy/cat-catch": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "super-productivity/super-productivity": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mikf/gallery-dl": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Tencent/vConsole": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "gnachman/iTerm2": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Foundry376/Mailspring": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nukeop/nuclear": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "yorukot/superfile": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "open-ani/animeko": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "putyy/res-downloader": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "video-dev/hls.js": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "DIYgod/DPlayer": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "davatorium/rofi": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "hydralauncher/hydra": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "muesli/duf": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "algerkong/AlgerMusicPlayer": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Tyrrrz/YoutubeDownloader": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Flow-Launcher/Flow.Launcher": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "amir1376/ab-download-manager": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "JoeanAmier/TikTokDownloader": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "nilaoda/BBDown": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "PySimpleGUI/PySimpleGUI": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "alexta69/metube": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "MetaMask/metamask-extension": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ajayyy/SponsorBlock": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "PlasmoHQ/plasmo": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "d2phap/ImageGlass": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "JosefNemec/Playnite": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "vnotex/vnote": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "bitwarden/clients": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "LawnchairLauncher/lawnchair": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "255kb/stack-on-a-budget": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "doocs/md": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "instaloader/instaloader": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "icloud-photos-downloader/icloud_photos_downloader": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "hluk/CopyQ": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "streamlink/streamlink": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Milkdown/milkdown": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Heroic-Games-Launcher/HeroicGamesLauncher": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Vanessa219/vditor": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "JoeanAmier/XHS-Downloader": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "filecxx/FileCentipede": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "mawww/kakoune": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "NopeCHALLC/nopecha-extension": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "phuryn/pm-skills": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "cookpete/react-player": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Gogh-Co/Gogh": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "katspaugh/wavesurfer.js": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "0x7c13/Notepads": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Ranchero-Software/NetNewsWire": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "superset-sh/superset": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "jnsahaj/tweakcn": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "huggingface/accelerate": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "felixse/FluentTerminal": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "aandrew-me/ytDownloader": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "yang991178/fluent-reader": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "gokcehan/lf": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "axllent/mailpit": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "bytedance/xgplayer": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "PrismLauncher/PrismLauncher": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "linuxserver/Heimdall": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "HMCL-dev/HMCL": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "miniflux/v2": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "guarinogabriel/Mac-CLI": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "caorushizi/mediago": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "bitwarden/android": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mps-youtube/yewtube": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "cerebroapp/cerebro": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "igorbarinov/awesome-data-engineering": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "nexmoe/VidBee": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "deniscerri/ytdlnis": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "mediaelement/mediaelement": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "joemccann/dillinger": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "zhanghai/MaterialFiles": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "tw93/MiaoYan": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "jely2002/youtube-dl-gui": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "jeffvli/feishin": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "rust-lang/rust-by-example": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "albertlauncher/albert": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "TheAssassin/AppImageLauncher": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "foundation/foundation-emails": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "nilaoda/N_m3u8DL-RE": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "snapcast/snapcast": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "labring/laf": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "podman-desktop/podman-desktop": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "clappr/clappr": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "samuelclay/NewsBlur": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "iyear/tdl": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "jiji262/douyin-downloader": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "qiye45/wechatDownload": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "vicinaehq/vicinae": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "amoffat/sh": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "peazip/PeaZip": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "DIYgod/RSSHub-Radar": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "hedgedoc/hedgedoc": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ReadYouApp/ReadYou": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "imsyy/SPlayer": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ritwickdey/vscode-live-server": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "gopasspw/gopass": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "massCodeIO/massCode": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "raphamorim/rio": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Moriafly/SaltPlayerSource": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "purocean/yn": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Kunzisoft/KeePassDX": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "aome510/spotify-player": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "moudey/Shell": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "kalcaddle/KodExplorer": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "spinframework/spin": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "zhongyang219/MusicPlayer2": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "rizonesoft/Notepad3": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "jpillora/cloud-torrent": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "TeamAmaze/AmazeFileManager": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "cmus/cmus": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "lite-xl/lite-xl": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "brookhong/Surfingkeys": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "anacrolix/torrent": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "manga-download/hakuneko": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "lesspass/lesspass": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Meloong-Git/PCL": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "pimalaya/himalaya": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "PhilippC/keepass2android": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "amitshekhariitbhu/Fast-Android-Networking": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "NirmalScaria/le-git-graph": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "4gray/iptvnator": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "prasathmani/tinyfilemanager": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "passbolt/passbolt_api": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "tensorchord/Awesome-LLMOps": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "pbek/QOwnNotes": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "gnunn1/tilix": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "hect0x7/JMComic-Crawler-Python": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "NickvisionApps/Parabolic": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "aleksey-hoffman/sigma-file-manager": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "miru-project/miru-app": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "kimlimjustin/xplorer": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "pythonnet/pythonnet": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "tonikelope/megabasterd": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "gsantner/markor": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "LongSoft/UEFITool": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "namidaco/namida": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "sshuair/awesome-gis": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "zfdang/Android-Touch-Helper": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "hanydd/BilibiliSponsorBlock": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "wkentaro/gdown": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "legendary-gl/legendary": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "xuejianxianzun/PixivBatchDownloader": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "googleworkspace/apps-script-samples": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "tangyoha/telegram_media_downloader": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Acode-Foundation/Acode": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "RetroMusicPlayer/RetroMusicPlayer": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "XiaoYouChR/Ghost-Downloader-3": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "bagisto/nextjs-commerce": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "OuterTune/OuterTune": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "extension-js/extension.js": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "devspace-sh/devspace": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mpvnet-player/mpv.net": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "KDE/ghostwriter": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Studio-42/elFinder": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "clangen/musikcube": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "rakshasa/rtorrent": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "productdevbook/port-killer": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "sayanarijit/xplr": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "fent/node-ytdl-core": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nICEnnnnnnnLee/BilibiliDown": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "apple/password-manager-resources": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "WorldBrain/Memex": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Tencent/cherry-markdown": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "dayanch96/YTLite": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "octokatherine/readme.so": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "MultiMC/Launcher": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "MM2-0/Kvaesitso": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "alexellis/arkade": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "zufuliu/notepad4": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nathom/streamrip": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "haugene/docker-transmission-openvpn": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "microsoft/codetour": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "oliverschwendener/ueli": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Ulauncher/Ulauncher": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nova-video-player/aos-AVP": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "mhogomchungu/media-downloader": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "shd101wyy/markdown-preview-enhanced": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Scighost/Starward": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "gdh1995/vimium-c": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "home-sweet-gnome/dash-to-panel": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "code-charity/youtube": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "scriptscat/scriptcat": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "micheleg/dash-to-dock": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "MarkEdit-app/MarkEdit": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "nuttyartist/notes": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "clementine-player/Clementine": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "moraroy/NonSteamLaunchers-On-Steam-Deck": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "xlenore/ps2-covers": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "stringer-rss/stringer": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "AdguardTeam/AdguardBrowserExtension": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "doublecmd/doublecmd": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "CharlesPikachu/musicdl": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "crxjs/chrome-extension-tools": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "cavi-au/Consent-O-Matic": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "FedML-AI/FedML": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "averygan/reclip": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "nteract/hydrogen": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "theovilardo/PixelPlayer": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ScottSloan/Bili23-Downloader": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "kanasimi/work_crawler": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "go-vikunja/vikunja": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "scdl-org/scdl": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "vaibhavpandeyvpz/apkstudio": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "feeluown/FeelUOwn": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "obsidianmd/obsidian-clipper": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "FCL-Team/FoldCraftLauncher": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "anilbeesetti/nextplayer": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "2ndalpha/gasmask": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "thebaselab/codeapp": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "nkanaev/yarr": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ampache/ampache": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "aws/aws-lambda-go": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "blossom-editor/blossom": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "wojtekmaj/react-calendar": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "newsboat/newsboat": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Neet-Nestor/Telegram-Media-Downloader": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "pyload/pyload": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "PCL-Community/PCL-CE": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "zhw2590582/ArtPlayer": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "jamesmurdza/awesome-ai-devtools": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "arikchakma/maily.to": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "OxygenCobalt/Auxio": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "EFForg/privacybadger": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "lay295/TwitchDownloader": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "kamiyaa/joshuto": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "strawberrymusicplayer/strawberry": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "jasonlong/isometric-contributions": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "umlx5h/LLPlayer": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Tyrrrz/YoutubeExplode": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "panphora/overtype": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "xxxily/h5player": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "antonmedv/walk": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "winscp/winscp": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nicejade/markdown-online-editor": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Axorax/awesome-free-apps": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "smallcloudai/refact": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "TermoraDev/termora": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Athou/commafeed": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "tanujnotes/Olauncher": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "oop7/YTSage": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "openseadragon/openseadragon": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "transmission-remote-gui/transgui": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "yattee/yattee": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Neamar/KISS": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "proninyaroslav/libretorrent": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "remorses/playwriter": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "amitshekhariitbhu/PRDownloader": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "mdx-editor/editor": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "theajack/disable-devtool": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "cairoshell/cairoshell": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "sourcebot-dev/sourcebot": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "jurplel/qView": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Open-Wine-Components/umu-launcher": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "jcubic/jquery.terminal": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "kalcaddle/kodbox": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "dessant/search-by-image": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ksnip/ksnip": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "vifm/vifm": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "mpv-android/mpv-android": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "derceg/explorerplusplus": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "atanunq/viu": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Tzahi12345/YoutubeDL-Material": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "dragonflyoss/dragonfly": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Coding-Solo/godot-mcp": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "brahmkshatriya/echo": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "artempyanykh/marksman": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "airbnb/HorizonCalendar": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "laravel-shift/blueprint": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "davidfowl/TodoApp": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ajaxorg/ace-builds": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "goatcorp/FFXIVQuickLauncher": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Bionus/imgbrd-grabber": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "SteamRE/DepotDownloader": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "XITRIX/iTorrent": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ContainerSSH/ContainerSSH": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "carthage-software/mago": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "X1a0He/Adobe-Downloader": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "easymodo/qimgv": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "vinta/awesome-python": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "avelino/awesome-go": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "521xueweihan/HelloGitHub": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "MunGell/awesome-for-beginners": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "awesomedata/awesome-public-datasets": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "vuejs/awesome-vue": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "josephmisiti/awesome-machine-learning": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "fffaraz/awesome-cpp": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "sindresorhus/awesome-nodejs": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ryanoasis/nerd-fonts": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "rust-unofficial/awesome-rust": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "dkhamsing/open-source-ios-apps": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "akullpp/awesome-java": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "brillout/awesome-react-components": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "LeCoupa/awesome-cheatsheets": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "lukasz-madon/awesome-remote-job": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "docker/awesome-compose": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "deepseek-ai/awesome-deepseek-integration": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "veggiemonk/awesome-docker": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "sorrycc/awesome-javascript": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "kuchin/awesome-cto": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ziadoz/awesome-php": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "abhisheknaiidu/awesome-github-profile-readme": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "sindresorhus/awesome-electron": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "matteocrippa/awesome-swift": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "enaqx/awesome-pentest": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "jivoi/awesome-osint": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "wilsonfreitas/awesome-quant": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "tayllan/awesome-algorithms": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "luong-komorebi/Awesome-Linux-Software": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Guovin/iptv-api": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "lukasmasuch/best-of-ml-python": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "dipakkr/A-to-Z-Resources-for-Students": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Lissy93/personal-security-checklist": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "thangchung/awesome-dotnet-core": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "matiassingers/awesome-readme": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "EthicalML/awesome-production-machine-learning": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "peass-ng/PEASS-ng": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "birobirobiro/awesome-shadcn-ui": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "agarrharr/awesome-cli-apps": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "dariubs/GoBooks": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "keon/awesome-nlp": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "rothgar/awesome-tuis": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "imarvinle/awesome-cs-books": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "iCHAIT/awesome-macOS": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "jtoy/awesome-tensorflow": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "vitejs/awesome-vite": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ellisonleao/magictools": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "thibmaek/awesome-raspberry-pi": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ramitsurana/awesome-kubernetes": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "chentsulin/awesome-graphql": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "powerline/powerline": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "terkelg/awesome-creative-coding": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "rossant/awesome-math": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "oxnr/awesome-bigdata": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "mfornos/awesome-microservices": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "neutraltone/awesome-stock-resources": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "public-api-lists/public-api-lists": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "plouc/nivo": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "zhuima/awesome-cloudflare": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "qazbnm456/awesome-web-security": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "phanan/htaccess": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "nestjs/awesome-nestjs": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "skywind3000/awesome-cheatsheets": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "JStumpp/awesome-android": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "steven2358/awesome-generative-ai": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "dhamaniasad/awesome-postgres": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "travisvn/awesome-claude-skills": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "hackstoic/golang-open-source-projects": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Heapy/awesome-kotlin": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "mjhea0/awesome-fastapi": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "oz123/awesome-c": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "jnv/lists": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "wsvincent/awesome-django": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "unicodeveloper/awesome-nextjs": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mehdihadeli/awesome-software-architecture": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "iptv-org/awesome-iptv": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Kristories/awesome-guidelines": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "webpro/awesome-dotfiles": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "edoardottt/awesome-hacker-search-engines": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "hslatman/awesome-threat-intelligence": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "PatrickJS/awesome-angular": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "rothgar/awesome-tmux": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "godotengine/awesome-godot": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "awesome-lists/awesome-bash": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "fenixsoft/awesome-fenix": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ashishb/android-security-awesome": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "friuns2/BlackFriday-GPTs-Prompts": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "kyrolabs/awesome-langchain": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "troxler/awesome-css-frameworks": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "emacs-tw/awesome-emacs": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "davidsonfellipe/awesome-wpo": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Kozea/WeasyPrint": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "marcelscruz/public-apis": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "timschneeb/awesome-shizuku": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "BehiSecc/awesome-claude-skills": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "MrNeRF/awesome-3D-gaussian-splatting": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "nhivp/Awesome-Embedded": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "grpc-ecosystem/awesome-grpc": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "lorien/awesome-web-scraping": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "rust-embedded/awesome-embedded-rust": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "meirwah/awesome-workflow-engines": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "anaibol/awesome-serverless": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Haxxnet/Compose-Examples": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "atinfo/awesome-test-automation": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "infoslack/awesome-web-hacking": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "sottlmarek/DevSecOps": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "humhub/humhub": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "chubin/awesome-console-services": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "shuaibiyy/awesome-tf": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "reorx/awesome-chatgpt-api": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "decalage2/awesome-security-hardening": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "davidhalter/jedi": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "xxh/xxh": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Evavic44/portfolio-ideas": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "cezaraugusto/You-Dont-Know-JS": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "micromata/awesome-javascript-learning": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "js-org/js.org": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ChilliCream/graphql-platform": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "onlurking/awesome-infosec": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "yinggaozhen/awesome-go-cn": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "thuquant/awesome-quant": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "athityakumar/colorls": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "timofurrer/awesome-asyncio": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "jorgebucaran/awsm.fish": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "sindresorhus/awesome-npm": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "r0f1/datascience": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "markusschanta/awesome-jupyter": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "nikolaydubina/go-recipes": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "lukasmasuch/best-of-python": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "appcypher/awesome-wasm-langs": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "gbdev/awesome-gbdev": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "baba-s/awesome-unity-open-source-on-github": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "sathishvj/awesome-gcp-certifications": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "jeffreytse/zsh-vi-mode": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "PaulSec/awesome-sec-talks": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "jaredthecoder/awesome-vehicle-security": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ligurio/awesome-ci": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "wmariuss/awesome-devops": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "trinib/Linux-Bash-Commands": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "semlinker/awesome-typescript": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "jphall663/awesome-machine-learning-interpretability": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "yosriady/awesome-api-devtools": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "lirantal/nodejs-cli-apps-best-practices": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "taiga-family/taiga-ui": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "marmelab/awesome-rest": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "TWO-ICE/Awesome-NAS-Docker": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "wangzhe3224/awesome-systematic-trading": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "jekil/awesome-hacking": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "unicodeveloper/awesome-opensource-apps": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "kakoni/awesome-healthcare": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "arainho/awesome-api-security": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "FortAwesome/react-fontawesome": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "seandavi/awesome-single-cell": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "W00t3k/Awesome-Cellular-Hacking": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ivbeg/awesome-status-pages": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "sozu-proxy/sozu": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "0xor0ne/awesome-list": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "coracoo/awesome_docker_cn": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "liyupi/free-programming-resources": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "imbhargav5/rooks": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "husnainfareed/awesome-ethical-hacking-resources": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "krzjoa/awesome-python-data-science": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "0xsyr0/Awesome-Cybersecurity-Handbooks": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "awesome-scripts/awesome-userscripts": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Keycapsss/awesome-mechanical-keyboard": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "fantastic-admin/basic": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "postlight/awesome-cms": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ankeetmaini/react-infinite-scroll-component": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Astrosp/Awesome-OSINT-For-Everything": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "dahlia/awesome-sqlalchemy": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "puppeteer/puppeteer": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "oven-sh/bun": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "gin-gonic/gin": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "microsoft/playwright": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "astral-sh/uv": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nestjs/nest": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nektos/act": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "dbeaver/dbeaver": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "hashicorp/terraform": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Homebrew/brew": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "parcel-bundler/parcel": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "usebruno/bruno": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "fastapi/full-stack-fastapi-template": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "sharkdp/fd": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "apache/dubbo": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "appsmithorg/appsmith": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "google/googletest": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "docker/compose": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "harness/harness": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "pnpm/pnpm": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "backstage/backstage": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "zeromicro/go-zero": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "helm/helm": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Ebazhanov/linkedin-skill-assessments-quizzes": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "microsoft/winget-cli": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "go-kratos/kratos": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "CodePhiliaX/Chat2DB": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "shieldfy/API-Security-Checklist": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "louislam/dockge": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mochajs/mocha": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Devolutions/UniGetUI": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "micro/go-micro": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "beekeeper-studio/beekeeper-studio": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "gofr-dev/gofr": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "MobSF/Mobile-Security-Framework-MobSF": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "vulhub/vulhub": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "catchorg/Catch2": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "sebastianbergmann/phpunit": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "tipsy/profile-summary-for-github": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "realm/SwiftLint": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "adonisjs/core": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "deviantony/docker-elk": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "keploy/keploy": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "upptime/upptime": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "NixOS/nix": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "umijs/qiankun": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "vitest-dev/vitest": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "jasmine/jasmine": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mockito/mockito": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "go-task/task": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Homebrew/homebrew-core": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "adobe/react-spectrum": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "rust-lang/cargo": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "FLEXTool/FLEX": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "analysis-tools-dev/static-analysis": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "forwardemail/supertest": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "AstroNvim/AstroNvim": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "abpframework/abp": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "winsiderss/systeminformer": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "pytest-dev/pytest": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ast-grep/ast-grep": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "tiny-craft/tiny-rdm": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "actions/runner-images": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "seleniumbase/SeleniumBase": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "illacloud/illa-builder": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nightwatchjs/nightwatch": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "langgptai/LangGPT": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "wix/Detox": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "encoredev/encore": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "robotframework/robotframework": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "actions/starter-workflows": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "pestphp/pest": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "chocolatey/choco": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "kubescape/kubescape": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "moghtech/komodo": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mockery/mockery": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "baldurk/renderdoc": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "nodejs/node-gyp": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "kubernetes/kompose": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "microsoft/winget-pkgs": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "super-linter/super-linter": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "foundry-rs/foundry": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "mason-org/mason.nvim": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "teamcapybara/capybara": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "swiftlang/swift-package-manager": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "containerd/nerdctl": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Quick/Quick": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "falconry/falcon": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "webdriverio/webdriverio": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "evolus/pencil": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "npm/cli": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "conan-io/conan": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "reviewdog/reviewdog": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "google/pprof": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Piebald-AI/claude-code-system-prompts": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "onsi/ginkgo": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "artilleryio/artillery": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "containers/buildah": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "oatpp/oatpp": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "YishenTu/claudian": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "pdm-project/pdm": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "junit-team/junit4": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "reactiveui/ReactiveUI": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "givanz/VvvebJs": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "redis/RedisInsight": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "django-commons/django-debug-toolbar": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "smallnest/rpcx": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "chaijs/chai": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "HariSekhon/DevOps-Bash-tools": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "antfu-collective/ni": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "pemistahl/grex": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "py-why/dowhy": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "mamba-org/mamba": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "cloudwego/kitex": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "MuntashirAkon/AppManager": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "PyMySQL/PyMySQL": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "gaogaotiantian/viztracer": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "conda/conda": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "cloudwego/hertz": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "electron/forge": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "sandstorm-io/sandstorm": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "junit-team/junit-framework": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "prefix-dev/pixi": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "hyperf/hyperf": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "PrismLibrary/Prism": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "dominikh/go-tools": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "aws/aws-sam-cli": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "doctest/doctest": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "clearml/clearml": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "microsoft/rushstack": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "micronaut-projects/micronaut-core": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "moleculerjs/moleculer": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "kif-framework/KIF": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "apache/camel": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "actions/actions-runner-controller": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "goadesign/goa": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "appleboy/ssh-action": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "containers/podman-compose": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "DavidAnson/markdownlint": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "robolectric/robolectric": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "actions/runner": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "amitshekhariitbhu/go-backend-clean-architecture": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "HeidiSQL/HeidiSQL": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ChrisWiles/claude-code-showcase": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "outerbase/studio": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "BretFisher/udemy-docker-mastery": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "actions/toolkit": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "google/EarlGrey": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "bwya77/vscode-dark-islands": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "HuolalaTech/page-spy-web": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "farm-fe/farm": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "softprops/action-gh-release": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "buildbot/buildbot": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ardatan/graphql-tools": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "alex8088/electron-vite": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "actions/cache": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "getarcaneapp/arcane": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "peaceiris/actions-gh-pages": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "getsentry/XcodeBuildMCP": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "docker/build-push-action": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "RhinoSecurityLabs/pacu": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "line/armeria": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "OWASP/Nettacker": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "spack/spack": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "IAmStoxe/wirehole": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "argilla-io/argilla": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "sbt/sbt": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "gajus/slonik": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "dubzzz/fast-check": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "sublimehq/package_control": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "spring-cloud/spring-cloud-gateway": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Codeception/Codeception": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Quick/Nimble": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "testcontainers/testcontainers-go": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "kotest/kotest": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "hect0x7/JMComic-APK": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "sqlectron/sqlectron": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "actions/setup-node": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "jenkins-x/jx": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "spec-first/connexion": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "JamesIves/github-pages-deploy-action": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "douyu/jupiter": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "GlitchEnzo/NuGetForUnity": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "anthropics/claude-code-security-review": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ivanpaulovich/clean-architecture-manga": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "voidzero-dev/vite-plus": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "httprunner/httprunner": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "adaltas/node-csv": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "NVIDIA/nvidia-container-toolkit": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "HotCakeX/Harden-Windows-Security": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "codeceptjs/CodeceptJS": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "zizmorcore/zizmor": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "JonathanSalwan/Triton": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "obytes/react-native-template-obytes": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ansible/molecule": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "camunda/camunda": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "uber/NullAway": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "qunitjs/qunit": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "rbenv/ruby-build": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "cpm-cmake/CPM.cmake": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "maurodesouza/profile-readme-generator": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "anmol098/waka-readme-stats": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "jspm/jspm": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "thomhurst/TUnit": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "firecow/gitlab-ci-local": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "fluentassertions/fluentassertions": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "moonrepo/moon": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "rhysd/actionlint": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "daltonmenezes/aura-theme": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "denji/awesome-http-benchmark": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "MaaXYZ/MaaFramework": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "HyperDbg/HyperDbg": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "composerize/composerize": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "llm-workflow-engine/llm-workflow-engine": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "thunderclient/thunder-client-support": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "networknt/light-4j": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "luarocks/luarocks": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "spockframework/spock": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "opensumi/core": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "kennethreitz/responder": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "conduktor/kafka-stack-docker-compose": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nodejs/corepack": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "AxonIQ/AxonFramework": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "terramate-io/terramate": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ViewComponent/view_component": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "deanpeters/Product-Manager-Skills": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "mxschmitt/action-tmate": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "glasskube/glasskube": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "httptoolkit/httptoolkit": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "vn7n24fzkq/github-profile-summary-cards": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "yandex/perforator": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "decalage2/oletools": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Tencent/spring-cloud-tencent": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ui-layouts/uilayouts": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "pester/Pester": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "kepano/flexoki": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "web-infra-dev/rsbuild": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "schemathesis/schemathesis": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "aspnetrun/run-aspnetcore-microservices": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "shivammathur/setup-php": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "wowu/docker-rollout": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "cohere-ai/cohere-toolkit": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Wisser/Jailer": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "matt1398/claude-devtools": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "dunglas/symfony-docker": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "geo-tp/ESP32-Bus-Pirate": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "nvim-neotest/neotest": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "inspec/inspec": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "mozilla/web-ext": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "DynamoRIO/dynamorio": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "github-aws-runners/terraform-aws-github-runner": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "fossasia/open-event-server": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "twbs/bootstrap": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mrdoob/three.js": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mui/material-ui": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "tailwindlabs/tailwindcss": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "tonsky/FiraCode": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "FortAwesome/Font-Awesome": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "apache/echarts": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ionic-team/ionic-framework": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "jgthms/bulma": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "penpot/penpot": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "tabler/tabler": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Dogfalo/materialize": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "carbon-language/carbon-lang": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "lovell/sharp": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "motiondivision/motion": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "fabricjs/fabric.js": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mantinedev/mantine": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "pmndrs/react-spring": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "postcss/postcss": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "airbnb/lottie-ios": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "GraphiteEditor/Graphite": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "simple-icons/simple-icons": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "greensock/GSAP": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mdbootstrap/mdb-ui-kit": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "tailwindlabs/heroicons": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "lucide-icons/lucide": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "magicuidesign/magicui": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "tabler/tabler-icons": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "google/fonts": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "readest/readest": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Dujltqzv/Some-Many-Books": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mojs/mojs": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "tusen-ai/naive-ui": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "picocss/pico": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mattboldt/typed.js": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "MaterialDesignInXAML/MaterialDesignInXamlToolkit": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "edent/SuperTinyIcons": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "primefaces/primevue": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "tamagui/tamagui": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "lokesh/color-thief": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "vercel/satori": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Tencent/omi": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "alexandresanlim/Badges4-README.md-Profile": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "majodev/google-webfonts-helper": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "react-icons/react-icons": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "lipis/flag-icons": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "wenzhixin/bootstrap-table": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "devicons/devicon": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "libvips/libvips": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "software-mansion/react-native-reanimated": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "bluewave-labs/Checkmate": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "c3js/c3": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "mdbootstrap/material-design-for-bootstrap": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "themesberg/flowbite": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "uber/baseweb": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "primer/octicons": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "neutralinojs/neutralinojs": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "NorthwoodsSoftware/GoJS": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "radix-ui/themes": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "primefaces/primereact": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Remix-Design/RemixIcon": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "software-mansion/react-native-svg": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "twbs/icons": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "PyCQA/bandit": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "fontforge/fontforge": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "six2dez/reconftw": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "FastLED/FastLED": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "wix/react-native-ui-lib": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "olton/metroui": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "logisim-evolution/logisim-evolution": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ChenYilong/CYLTabBarController": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "reactchartjs/react-chartjs-2": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ChartsCSS/charts.css": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "antvis/X6": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "google-map-react/google-map-react": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "htmlstreamofficial/preline": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ecomfe/zrender": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ly525/luban-h5": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "iconify/iconify": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "lzhoang2801/OpCore-Simplify": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "naver/billboard.js": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "projectdiscovery/naabu": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "fontsource/fontsource": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Fincept-Corporation/FinceptTerminal": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "pheralb/svgl": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Tencent/libpag": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "arco-design/arco-design": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ibelick/motion-primitives": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "AngleSharp/AngleSharp": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "amosgyamfi/open-swiftui-animations": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "pterm/pterm": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "v5tech/awesome-ios-animation": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "varletjs/varlet": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "mikepenz/Android-Iconics": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "clientIO/joint": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "swup/swup": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "lukevella/rallly": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "AllThingsSmitty/must-watch-css": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "SPLWare/esProc": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "alibaba-fusion/next": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "seek-oss/playroom": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "iconoir-icons/iconoir": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "youngsoft/MyLinearLayout": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "oxalorg/sakura": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "creativetimofficial/material-tailwind": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "eclipse-sumo/sumo": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "SwanHubX/SwanLab": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "reactjs/react-docgen": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "linebender/resvg": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "hizzgdev/jsmind": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "React95/React95": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "rubjo/victor-mono": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "epicmaxco/vuestic-ui": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "jaywcjlove/free-font": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "RhinoSecurityLabs/cloudgoat": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nullptrlabs/pgmodeler": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Megabit/Blazorise": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "benjitaylor/agentation": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "rio-labs/rio": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "BulmaTemplates/bulma-templates": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "romboHQ/tailwindcss-motion": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Figma-Linux/figma-linux": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "box-icons/boxicons": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "apecloud/kubeblocks": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "kubernetes/kubernetes": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nvm-sh/nvm": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "scrapy/scrapy": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "huginn/huginn": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "acmesh-official/acme.sh": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "google/zx": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "NaiboWang/EasySpider": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "calcom/cal.diy": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "DataTalksClub/data-engineering-zoomcamp": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "koalaman/shellcheck": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "SeleniumHQ/selenium": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "tokio-rs/tokio": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "cheeriojs/cheerio": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "xuxueli/xxl-job": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "python-telegram-bot/python-telegram-bot": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "gitroomhq/postiz-app": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "hwdsl2/setup-ipsec-vpn": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "kestra-io/kestra": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "discordjs/discord.js": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "gocolly/colly": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "redisson/redisson": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "charmbracelet/gum": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "wechaty/wechaty": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "PrefectHQ/prefect": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "vectordotdev/vector": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "wwebjs/whatsapp-web.js": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "XiaoMi/ha_xiaomi_home": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "wistbean/learn_python3_spider": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "AZeC4/TelegramGroup": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "airbytehq/airbyte": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "camel-ai/owl": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "wasp-lang/wasp": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "OptimalBits/bull": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Rapptz/discord.py": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ansible/awx": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "dagster-io/dagster": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "codelucas/newspaper": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Unstructured-IO/unstructured": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "budtmo/docker-android": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "wasp-lang/open-saas": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "dask/dask": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "plait-board/drawnix": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "adnanh/webhook": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "code4craft/webmagic": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "great-expectations/great_expectations": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "PipedreamHQ/pipedream": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "kedro-org/kedro": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "PRQL/prql": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "RetroPie/RetroPie-Setup": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "HangfireIO/Hangfire": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "healthchecks/healthchecks": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "agenda/agenda": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "cosscom/coss": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "resque/resque": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "yagop/node-telegram-bot-api": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "home-assistant/home-assistant.io": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "javan/whenever": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "pinchtab/pinchtab": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "eternnoir/pyTelegramBotAPI": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mage-ai/mage-ai": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "redpanda-data/connect": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "testcontainers/testcontainers-java": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "SeleniumHQ/docker-selenium": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "thoughtbot/laptop": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "pentaho/pentaho-kettle": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "mherrmann/helium": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "apache/shardingsphere-elasticjob": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "kangvcar/InfoSpider": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "xwmx/nb": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "turbot/steampipe": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "PowerJob/PowerJob": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "microsoft/presidio": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "frenck/awesome-home-assistant": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "oldratlee/useful-scripts": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "agronholm/apscheduler": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ohmybash/oh-my-bash": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "jdepoix/youtube-transcript-api": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mruniquehacker/Knightbot-MD": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "refly-ai/refly": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "francescopace/espectre": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "quartznet/quartznet": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "home-assistant/operating-system": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "go-co-op/gocron": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "go-rod/rod": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "autoscrape-labs/pydoll": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "quartz-scheduler/quartz": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Zipstack/unstract": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "AFLplusplus/AFLplusplus": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "StackStorm/st2": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "devlikeapro/waha": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "apache/flink-cdc": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "cloudquery/cloudquery": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mishushakov/llm-scraper": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "elves/elvish": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "dehydrated-io/dehydrated": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "contribsys/faktory": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "rundeck/rundeck": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "firecrawl/firecrawl-mcp-server": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "todotxt/todo.txt-cli": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "MontFerret/ferret": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "PleasePrompto/notebooklm-skill": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "matthewmueller/x-ray": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "aiogram/aiogram": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "jhuckaby/Cronicle": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "koishijs/koishi": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Cog-Creators/Red-DiscordBot": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "rubenlagus/TelegramBots": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Eventual-Inc/Daft": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "home-assistant/frontend": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "php-webdriver/php-webdriver": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "iflow-ai/iflow-cli": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "riverqueue/river": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "theOehrly/Fast-F1": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "piitaya/lovelace-mushroom": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ebertti/awesome-telegram": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "dkron-io/dkron": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "discord-jda/JDA": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "unhappychoice/gitlogue": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "tucnak/telebot": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "sparklemotion/mechanize": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "myreader-io/myGPTReader": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "omkarcloud/botasaurus": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "d60/twikit": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "itgoyo/TelegramGroup": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "radzenhq/radzen-blazor": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "tdlib/telegram-bot-api": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "alextselegidis/easyappointments": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "lukas-krecan/ShedLock": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "dotnetcore/DotnetSpider": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "anasty17/mirror-leech-telegram-bot": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Clooos/Bubble-Card": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "aws/aws-sdk-pandas": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "teloxide/teloxide": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ultrafunkamsterdam/nodriver": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "pixlcore/xyops": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "linuxmint/timeshift": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "swiftbar/SwiftBar": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "joeyism/linkedin_scraper": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "tox-dev/tox": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "open-spaced-repetition/fsrs4anki": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "deanxv/coze-discord-proxy": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mcuadros/ofelia": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "kalkih/mini-graph-card": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "tbxark/ChatGPT-Telegram-Workers": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "aldinokemal/go-whatsapp-web-multidevice": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ms-jpq/coq_nvim": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Netflix/maestro": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "citusdata/pg_cron": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nikoksr/notify": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ucbepic/docetl": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "google/deepvariant": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "gosom/google-maps-scraper": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "TelegramBots/Telegram.Bot": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "moby/swarmkit": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "garden-io/garden": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "neuronetio/gantt-schedule-timeline-calendar": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "pawl/awesome-etl": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "sqzw-x/mdcx": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "grammyjs/grammY": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "home-assistant/android": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "avinashkranjan/Amazing-Python-Scripts": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "discord-net/Discord.Net": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "apache/incubator-kie-optaplanner": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "mvscode/frps-onekey": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "danog/MadelineProto": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Arcenox-co/TickerQ": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "nextflow-io/nextflow": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "edoardottt/cariddi": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "luolongfei/freenom": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "CachyOS/linux-cachyos": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "playwright-community/playwright-go": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "wppconnect-team/wppconnect": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "irazasyed/telegram-bot-sdk": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "breejs/bree": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "OpenDCAI/DataFlow": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "felixmosh/bull-board": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Just-Some-Bots/MusicBot": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "WeBankFinTech/DataSphereStudio": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "node-cron/node-cron": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "AlexxIT/SonoffLAN": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "SudhanPlayz/Discord-MusicBot": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "basnijholt/adaptive-lighting": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "b3nj5m1n/xdg-ninja": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "argilla-io/distilabel": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "speedyapply/JobSpy": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "blockchain-etl/ethereum-etl": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "fleschutz/PowerShell": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "oxylabs/google-ai-mode-scraper": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "inovector/mixpost": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ONLYOFFICE/CommunityServer": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "SeleniumHQ/selenium-ide": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "PeerDB-io/peerdb": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "symfony/panther": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "GladysAssistant/Gladys": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "SQLMesh/sqlmesh": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Worklenz/worklenz": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "public-apis/public-apis": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "d3/d3": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "typicode/json-server": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "grafana/grafana": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ocornut/imgui": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "apache/superset": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "strapi/strapi": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "jellyfin/jellyfin": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "metabase/metabase": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ColorlibHQ/AdminLTE": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "AykutSarac/jsoncrack.com": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "freeCodeCamp/devdocs": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Kong/insomnia": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "chatanywhere/GPT_API_free": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "directus/directus": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "hasura/graphql-engine": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "OAI/OpenAPI-Specification": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "encode/django-rest-framework": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "swagger-api/swagger-ui": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "getredash/redash": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "recharts/recharts": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "PostgREST/postgrest": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "marmelab/react-admin": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "OpenAPITools/openapi-generator": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Redocly/redoc": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "SwiftyJSON/SwiftyJSON": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "saleor/saleor": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "thingsboard/thingsboard": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "huggingface/datasets": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ColorlibHQ/gentelella": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "wekan/wekan": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "bokeh/bokeh": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "grpc-ecosystem/grpc-gateway": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "probelabs/goreplay": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "cheahjs/free-llm-api-resources": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "amark/gun": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "subquery/subql": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mountain-loop/yaak": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "plotly/plotly.js": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mswjs/msw": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "swagger-api/swagger-codegen": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "influxdata/telegraf": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "sindresorhus/ky": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ImageMagick/ImageMagick": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "fangzesheng/free-api": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "amplication/amplication": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "jsdoc/jsdoc": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "spree/spree": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "microsoft/data-formulator": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "scalar/scalar": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "LibreTranslate/LibreTranslate": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mwaskom/seaborn": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "FlareSolverr/FlareSolverr": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "isl-org/Open3D": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "graphql/dataloader": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "graphile/crystal": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "assimp/assimp": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "swaggo/swag": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "zealdocs/zeal": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "primefaces/primeng": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "reactioncommerce/reaction": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "coreui/coreui-free-bootstrap-admin-template": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "OpenRefine/OpenRefine": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "keplergl/kepler.gl": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "darrenburns/posting": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "StarRocks/starrocks": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "apple/pkl": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "FormidableLabs/victory": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "open-metadata/OpenMetadata": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "simonw/datasette": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "epicmaxco/vuestic-admin": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "TykTechnologies/tyk": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mdn/content": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "doccano/doccano": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "rerun-io/rerun": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "perspective-dev/perspective": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "fossasia/visdom": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ruby-grape/grape": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "brightmart/nlp_chinese_corpus": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "johnkerl/miller": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "restsharp/RestSharp": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "bchavez/Bogus": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "unopim/unopim": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "reactiveui/refit": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "dr5hn/countries-states-cities-database": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "alufers/mitmproxy2swagger": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "api-platform/api-platform": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "saulpw/visidata": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "vitalik/django-ninja": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "rawgraphs/rawgraphs-app": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "googleapis/googleapis": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "graphql-hive/graphql-yoga": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "vaexio/vaex": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "OwO-Network/DeepLX": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "oapi-codegen/oapi-codegen": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "PrivateBin/PrivateBin": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mockoon/mockoon": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "litestar-org/litestar": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "APIs-guru/graphql-voyager": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "MichalLytek/type-graphql": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "openapi-ts/openapi-typescript": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "antvis/F2": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "TomWright/dasel": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "nxtrace/NTrace-core": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "olifolkerd/tabulator": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "go-echarts/go-echarts": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "swagger-api/swagger-core": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "imaNNeo/fl_chart": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "google/jsonnet": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "RicoSuter/NSwag": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "AlaSQL/alasql": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "dbohdan/structured-text-tools": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "microsoft/SandDance": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "justlovemaki/AIClient-2-API": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "pyeve/eve": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "requestly/requestly": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "authzed/spicedb": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ScottPlot/ScottPlot": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "joelittlejohn/jsonschema2pojo": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "lance-format/lance": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "popjane/free_chatgpt_api": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "OutlineFoundation/outline-server": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "automerge/automerge": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "evidence-dev/evidence": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "lmarzen/esp32-weather-epd": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "graphql-dotnet/graphql-dotnet": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "FastEndpoints/FastEndpoints": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "OSGeo/gdal": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "openbao/openbao": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "livebook-dev/livebook": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "orval-labs/orval": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mdn/browser-compat-data": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "biolab/orange3": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "loro-dev/loro": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "PaulJuliusMartinez/jless": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "brianvoe/gofakeit": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "observablehq/plot": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "dlt-hub/dlt": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "dunglas/mercure": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "sripathikrishnan/redis-rdb-tools": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "open-meteo/open-meteo": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Daymychen/art-design-pro": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "vikiboss/60s": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mosra/magnum": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "man-group/dtale": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "PokeAPI/pokeapi": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "loopbackio/loopback-next": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "javascriptdata/danfojs": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ckan/ckan": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mathesar-foundation/mathesar": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "hyperknot/openfreemap": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "coreui/coreui-free-react-admin-template": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "stoplightio/prism": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "alandefreitas/matplotplusplus": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ohld/igbot": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mediacms-io/mediacms": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "lk-geimfari/mimesis": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Azure/autorest": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "RomelTorres/alpha_vantage": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "openvenues/libpostal": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "AAChartModel/AAChartKit": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "binance/binance-spot-api-docs": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "webonyx/graphql-php": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "OpenCSGs/csghub": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Kanaries/Rath": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "puikinsh/Adminator-admin-dashboard": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "plotters-rs/plotters": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "hey-api/openapi-ts": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "dotnet/docfx": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "absinthe-graphql/absinthe": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "graphql-python/graphene-django": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "beclab/Olares": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "pyqtgraph/pyqtgraph": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "abraham/twitteroauth": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "StructuredLabs/preswald": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "swaggo/gin-swagger": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "osm-search/Nominatim": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "opensourcepos/opensourcepos": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "acacode/swagger-typescript-api": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Michael-A-Kuykendall/shimmy": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "danielgtaylor/huma": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "deepchecks/deepchecks": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "bitmagnet-io/bitmagnet": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "antvis/L7": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "mdn/dom-examples": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "antvis/mcp-server-chart": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "electricitymaps/electricitymaps-contrib": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "lukeautry/tsoa": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "nkaz001/hftbacktest": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "RedisJSON/RedisJSON": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "koxudaxi/datamodel-code-generator": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "kemalcr/kemal": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "markmarkoh/datamaps": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "juhaku/utoipa": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "wp-graphql/wp-graphql": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "thi-ng/umbrella": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Kotlin/dokka": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "pimcore/pimcore": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "mevdschee/php-crud-api": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "XCharts-Team/XCharts": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "FasterXML/jackson-databind": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "springdoc/springdoc-openapi": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mckinsey/vizro": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Visualize-ML/Book2_Beauty-of-Data-Visualization": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "geex-arts/django-jet": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "dunglas/vulcain": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "axnsan12/drf-yasg": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "VisActor/VTable": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "AutoFixture/AutoFixture": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "ardatan/graphql-mesh": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "sugarforever/chat-ollama": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "M-3LAB/awesome-industrial-anomaly-detection": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "Dotnet-Boxed/Templates": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "microsoft/tensorwatch": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "observablehq/framework": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "json-schema-faker/json-schema-faker": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "roapi/roapi": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "coreui/coreui-free-vue-admin-template": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "unitycatalog/unitycatalog": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ferdikoomen/openapi-typescript-codegen": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "akheron/jansson": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "django-import-export/django-import-export": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "codefuse-ai/Awesome-Code-LLM": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "zigzap/zap": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "supabase/pg_graphql": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ts-rest/ts-rest": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "waymo-research/waymo-open-dataset": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "AcademySoftwareFoundation/openvdb": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "openfaas/faasd": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "getkin/kin-openapi": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "zalando/restful-api-guidelines": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "root-project/root": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "open-policy-agent/conftest": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "openaddresses/openaddresses": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "tfredrich/RestApiTutorial.com": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "wa0x6e/cal-heatmap": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mumuy/data_location": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "arpanghosh8453/garmin-grafana": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "minar09/awesome-virtual-try-on": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "stoplightio/spectral": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "Azure/azure-rest-api-specs": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "apache/hugegraph": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ChartGPU/ChartGPU": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "patrykandpatrick/vico": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "sveltejs/svelte": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "h5bp/html5-boilerplate": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ant-design/ant-design-pro": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "refinedev/refine": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "kriasoft/react-starter-kit": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "mitesh77/Best-Flutter-UI-Templates": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "jasontaylordev/CleanArchitecture": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "11ty/eleventy": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "academicpages/academicpages.github.io": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "soybeanjs/soybean-admin": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "cobiwave/simplefolio": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "tinacms/tinacms": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "mdbootstrap/TW-Elements": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Qloapps/QloApps": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "satnaing/shadcn-admin": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "timlrx/tailwind-nextjs-starter-blog": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "keystonejs/keystone": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "zuiidea/antd-admin": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "antfu-collective/vitesse": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "HugoBlox/kit": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "BuilderIO/builder": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ikuaitu/vue-fabric-editor": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "leerob/next-mdx-blog": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "vercel/next-forge": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ixartz/SaaS-Boilerplate": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "un-pany/v3-admin-vite": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "elementor/elementor": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "plasmicapp/plasmic": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "Kiranism/next-shadcn-dashboard-starter": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "sanity-io/sanity": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "thoughtbot/administrate": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ponzu-cms/ponzu": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "thecodingmachine/react-native-boilerplate": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "umbraco/Umbraco-CMS": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "ln-dev7/square-ui": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "unlayer/react-email-editor": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "blocks/blocks": {
+    "difficulty": "进阶",
+    "special": null
+  },
+  "kevquirk/simple.css": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "RyanFitzgerald/devportfolio": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "statamic/cms": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "orchidsoftware/platform": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "cruip/open-react-template": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "apostrophecms/apostrophe": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "satnaing/astro-paper": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "saicaca/fuwari": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "cruip/tailwind-landing-page-template": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "pdfme/pdfme": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "ashutosh1919/masterPortfolio": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "open-xml-templating/docxtemplater": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "sunniejs/vue-h5-template": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "unfoldadmin/django-unfold": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "microweber/microweber": {
+    "difficulty": "入门",
+    "special": null
+  },
+  "kjur/jsrsasign": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "terminusdb/terminusdb": {
+    "difficulty": "专业",
+    "special": null
+  },
+  "callstack/react-native-builder-bob": {
+    "difficulty": "入门",
+    "special": null
+  }
 }
