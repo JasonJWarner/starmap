@@ -7,10 +7,6 @@
     "difficulty": "入门",
     "special": null
   },
-  "jlevy/the-art-of-command-line": {
-    "difficulty": "进阶",
-    "special": null
-  },
   "donnemartin/system-design-primer": {
     "difficulty": "专业",
     "special": null
@@ -23,72 +19,12 @@
     "difficulty": "专业",
     "special": null
   },
-  "appwrite/appwrite": {
-    "difficulty": "进阶",
-    "special": null
-  },
-  "2dust/v2rayN": {
-    "difficulty": "进阶",
-    "special": "偏门"
-  },
-  "v2fly/v2ray-core": {
-    "difficulty": "专业",
-    "special": "偏门"
-  },
-  "vincenthsu/awesome-live-streaming": {
-    "difficulty": "进阶",
-    "special": "偏门"
-  },
-  "iperov/DeepFaceLive": {
-    "difficulty": "专业",
-    "special": "偏门"
-  },
-  "openai/openai-cookbook": {
-    "difficulty": "进阶",
-    "special": null
-  },
-  "supabase/supabase": {
-    "difficulty": "进阶",
-    "special": null
-  },
-  "obgnail/typora_plugin": {
-    "difficulty": "进阶",
-    "special": "偏门"
-  },
-  "home-assistant/core": {
-    "difficulty": "进阶",
-    "special": null
-  },
-  "shadowsocks/shadowsocks": {
-    "difficulty": "进阶",
-    "special": "偏门"
-  },
-  "wailsapp/wails": {
-    "difficulty": "专业",
-    "special": null
-  },
-  "denoland/deno": {
-    "difficulty": "专业",
-    "special": null
-  },
-  "facebookresearch/llama": {
-    "difficulty": "专业",
-    "special": null
-  },
   "AUTOMATIC1111/stable-diffusion-webui": {
-    "difficulty": "进阶",
-    "special": null
-  },
-  "goldbergyoni/nodebestpractices": {
     "difficulty": "进阶",
     "special": null
   },
   "kamranahmedse/developer-roadmap": {
     "difficulty": "入门",
-    "special": null
-  },
-  "danistefanovic/build-your-own-x": {
-    "difficulty": "进阶",
     "special": null
   },
   "ohmyzsh/ohmyzsh": {
@@ -97,22 +33,6 @@
   },
   "PaddlePaddle/PaddleOCR": {
     "difficulty": "专业",
-    "special": null
-  },
-  "flutter/flutter": {
-    "difficulty": "进阶",
-    "special": null
-  },
-  "vercel/next.js": {
-    "difficulty": "进阶",
-    "special": null
-  },
-  "electron/electron": {
-    "difficulty": "进阶",
-    "special": null
-  },
-  "tauri-apps/tauri": {
-    "difficulty": "进阶",
     "special": null
   },
   "trekhleb/javascript-algorithms": {
@@ -3092,7 +3012,7 @@
     "special": null
   },
   "baserow/baserow": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "huggingface/speech-to-speech": {
@@ -3108,7 +3028,7 @@
     "special": null
   },
   "objectbox/objectbox-java": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "promptslab/Promptify": {
@@ -3132,7 +3052,7 @@
     "special": null
   },
   "infiniflow/infinity": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "OpenNMT/CTranslate2": {
@@ -3176,7 +3096,7 @@
     "special": null
   },
   "HelixDB/helix-db": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "lululxvi/deepxde": {
@@ -3188,7 +3108,7 @@
     "special": null
   },
   "unum-cloud/USearch": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "facebookresearch/dlrm": {
@@ -3400,7 +3320,7 @@
     "special": null
   },
   "hegelai/prompttools": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "cheshire-cat-ai/core": {
@@ -3416,7 +3336,7 @@
     "special": null
   },
   "pinecone-io/examples": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "Tencent-Hunyuan/HunyuanImage-3.0": {
@@ -3468,7 +3388,7 @@
     "special": null
   },
   "awesome-foss/awesome-sysadmin": {
-    "difficulty": "入门",
+    "difficulty": "专业",
     "special": null
   },
   "Dokploy/dokploy": {
@@ -5332,7 +5252,7 @@
     "special": null
   },
   "neutraltone/awesome-stock-resources": {
-    "difficulty": "入门",
+    "difficulty": "进阶",
     "special": null
   },
   "public-api-lists/public-api-lists": {
@@ -6020,7 +5940,7 @@
     "special": null
   },
   "abpframework/abp": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "winsiderss/systeminformer": {
@@ -6048,7 +5968,7 @@
     "special": null
   },
   "illacloud/illa-builder": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "nightwatchjs/nightwatch": {
@@ -6460,11 +6380,11 @@
     "special": null
   },
   "gajus/slonik": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "dubzzz/fast-check": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "sublimehq/package_control": {
@@ -6472,7 +6392,7 @@
     "special": null
   },
   "spring-cloud/spring-cloud-gateway": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "Codeception/Codeception": {
@@ -6496,7 +6416,7 @@
     "special": null
   },
   "sqlectron/sqlectron": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "actions/setup-node": {
@@ -6580,7 +6500,7 @@
     "special": null
   },
   "qunitjs/qunit": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "rbenv/ruby-build": {
@@ -6632,7 +6552,7 @@
     "special": null
   },
   "MaaXYZ/MaaFramework": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "HyperDbg/HyperDbg": {
@@ -6720,7 +6640,7 @@
     "special": null
   },
   "Tencent/spring-cloud-tencent": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "ui-layouts/uilayouts": {
@@ -6728,7 +6648,7 @@
     "special": null
   },
   "pester/Pester": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "kepano/flexoki": {
@@ -6744,7 +6664,7 @@
     "special": null
   },
   "aspnetrun/run-aspnetcore-microservices": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "shivammathur/setup-php": {
@@ -6760,7 +6680,7 @@
     "special": null
   },
   "Wisser/Jailer": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "matt1398/claude-devtools": {
@@ -7236,7 +7156,7 @@
     "special": null
   },
   "hizzgdev/jsmind": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "React95/React95": {
@@ -7248,7 +7168,7 @@
     "special": null
   },
   "epicmaxco/vuestic-ui": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "jaywcjlove/free-font": {
@@ -7272,7 +7192,7 @@
     "special": null
   },
   "rio-labs/rio": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "BulmaTemplates/bulma-templates": {
@@ -7452,7 +7372,7 @@
     "special": null
   },
   "wasp-lang/open-saas": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "dask/dask": {
@@ -8360,7 +8280,7 @@
     "special": null
   },
   "epicmaxco/vuestic-admin": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "TykTechnologies/tyk": {
@@ -8644,7 +8564,7 @@
     "special": null
   },
   "Daymychen/art-design-pro": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "vikiboss/60s": {
@@ -9020,7 +8940,7 @@
     "special": null
   },
   "wa0x6e/cal-heatmap": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "mumuy/data_location": {
@@ -9092,7 +9012,7 @@
     "special": null
   },
   "soybeanjs/soybean-admin": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "cobiwave/simplefolio": {
@@ -9116,7 +9036,7 @@
     "special": null
   },
   "timlrx/tailwind-nextjs-starter-blog": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "keystonejs/keystone": {
@@ -9128,11 +9048,11 @@
     "special": null
   },
   "antfu-collective/vitesse": {
-    "difficulty": "入门",
+    "difficulty": "进阶",
     "special": null
   },
   "HugoBlox/kit": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "BuilderIO/builder": {
@@ -9144,7 +9064,7 @@
     "special": null
   },
   "leerob/next-mdx-blog": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "vercel/next-forge": {
@@ -9152,7 +9072,7 @@
     "special": null
   },
   "ixartz/SaaS-Boilerplate": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "un-pany/v3-admin-vite": {
@@ -9168,7 +9088,7 @@
     "special": null
   },
   "Kiranism/next-shadcn-dashboard-starter": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "sanity-io/sanity": {
@@ -9184,7 +9104,7 @@
     "special": null
   },
   "thecodingmachine/react-native-boilerplate": {
-    "difficulty": "专业",
+    "difficulty": "进阶",
     "special": null
   },
   "umbraco/Umbraco-CMS": {
