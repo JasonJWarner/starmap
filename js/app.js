@@ -82,7 +82,7 @@
       loadUnlocked();
       init();
     } catch(e) {
-      app.innerHTML = '<div class="empty-state"><div class="icon">😞</div><p>数据加载失败，请刷新重试</p></div>';
+      app.innerHTML = '<div class="empty-state"><div class="icon">😞</div><p>Failed to load data. Please refresh.</p></div>';
     }
   }
 
@@ -124,13 +124,13 @@
 
     app.innerHTML = `
       <div class="hero">
-        <h1>🗺️ 星图 Starmap</h1>
-        <p>按你的需求，找到 GitHub 上的答案</p>
+        <h1>🗺️ Starmap</h1>
+        <p>Find GitHub answers for your needs</p>
       </div>
       <div class="stats-bar">
-        <div class="stat-item"><div class="stat-num">${total.toLocaleString()}</div><div class="stat-label">开源项目</div></div>
-        <div class="stat-item"><div class="stat-num">${cats.length}</div><div class="stat-label">分类</div></div>
-        <div class="stat-item"><div class="stat-num">GitHub</div><div class="stat-label">数据来源</div></div>
+        <div class="stat-item"><div class="stat-num">${total.toLocaleString()}</div><div class="stat-label">Open Source Projects</div></div>
+        <div class="stat-item"><div class="stat-num">${cats.length}</div><div class="stat-label">Categories</div></div>
+        <div class="stat-item"><div class="stat-num">GitHub</div><div class="stat-label">Data Source</div></div>
       </div>
       <div class="category-grid">
         ${cats.map(c => `
@@ -138,7 +138,7 @@
             <div class="category-icon">${c.icon}</div>
             <div class="category-info">
               <h3>${c.display}</h3>
-              <span>${c.count} 个项目</span>
+              <span>${c.count} projects</span>
             </div>
           </a>
         `).join('')}
@@ -162,34 +162,34 @@
 
     app.innerHTML = `
       <div class="category-header">
-        <a href="#/" class="back-link">← 返回首页</a>
+        <a href="#/" class="back-link">← Home</a>
         <div class="category-title">
           <span class="icon">${cat.icon}</span>
           <h1>${cat.display}</h1>
         </div>
       </div>
       <div class="subcat-tabs">
-        <button class="subcat-tab ${currentSubCat==='all'?'active':''}" data-sub="all">全部 (${cat.count})</button>
+        <button class="subcat-tab ${currentSubCat==='all'?'active':''}" data-sub="all">All (${cat.count})</button>
         ${cat.subCategories.map(sc => {
           const cnt = cat.repos.filter(r => r.sc === sc).length;
           return `<button class="subcat-tab ${currentSubCat===sc?'active':''}" data-sub="${sc}">${sc} (${cnt})</button>`;
         }).join('')}
       </div>
       <div class="filter-bar">
-        <span>难度：</span>
-        <button class="diff-filter ${currentDifficulty==='all'?'active':''}" data-diff="all">全部</button>
-        <button class="diff-filter ${currentDifficulty==='入门'?'active':''}" data-diff="入门">🟢 入门</button>
-        <button class="diff-filter ${currentDifficulty==='进阶'?'active':''}" data-diff="进阶">🟡 进阶</button>
-        <button class="diff-filter ${currentDifficulty==='专业'?'active':''}" data-diff="专业">🔴 专业</button>
+        <span>Difficulty:</span>
+        <button class="diff-filter ${currentDifficulty==='all'?'active':''}" data-diff="all">All</button>
+        <button class="diff-filter ${currentDifficulty==='Beginner'?'active':''}" data-diff="Beginner">🟢 Beginner</button>
+        <button class="diff-filter ${currentDifficulty==='Intermediate'?'active':''}" data-diff="Intermediate">🟡 Intermediate</button>
+        <button class="diff-filter ${currentDifficulty==='Advanced'?'active':''}" data-diff="Advanced">🔴 Advanced</button>
       </div>
       <div class="sort-bar">
-        <span>排序：</span>
+        <span>Sort:</span>
         <select id="sortSelect">
-          <option value="stars" ${currentSort==='stars'?'selected':''}>⭐ Star 数</option>
-          <option value="name" ${currentSort==='name'?'selected':''}>🔤 名称</option>
-          <option value="recent" ${currentSort==='recent'?'selected':''}>🕐 最近更新</option>
+          <option value="stars" ${currentSort==='stars'?'selected':''}>⭐ Stars</option>
+          <option value="name" ${currentSort==='name'?'selected':''}>🔤 Name</option>
+          <option value="recent" ${currentSort==='recent'?'selected':''}>🕐 Recently Updated</option>
         </select>
-        <span style="margin-left:auto">${sorted.length} 个项目</span>
+        <span style="margin-left:auto">${sorted.length} projects</span>
       </div>
       <div class="project-list">
         ${sorted.map(r => projectCard(r)).join('')}
@@ -253,7 +253,7 @@
   function renderSearch(query) {
     currentView = 'search';
     if (!query.trim()) {
-      app.innerHTML = '<div class="empty-state"><div class="icon">🔍</div><p>输入关键词搜索开源项目</p></div>';
+      app.innerHTML = '<div class="empty-state"><div class="icon">🔍</div><p>Enter keywords to search projects</p></div>';
       return;
     }
 
@@ -271,13 +271,13 @@
 
     app.innerHTML = `
       <div class="category-header">
-        <a href="#/" class="back-link">← 返回首页</a>
+        <a href="#/" class="back-link">← Home</a>
       </div>
       <div class="search-info">
-        搜索 "<strong>${escHtml(query)}</strong>" 找到 <strong>${sorted.length}</strong> 个项目
+        Search "<strong>${escHtml(query)}</strong>" found <strong>${sorted.length}</strong> projects
       </div>
       ${sorted.length === 0
-        ? '<div class="empty-state"><div class="icon">🤷</div><p>没有找到匹配的项目，换个关键词试试</p></div>'
+        ? '<div class="empty-state"><div class="icon">🤷</div><p>No matches found. Try different keywords.</p></div>'
         : `<div class="project-list">${sorted.map(r => projectCard(r, true)).join('')}</div>`
       }
     `;
@@ -318,28 +318,28 @@
     const langClass = getLangClass(r.l);
     const shortName = r.n.split('/')[1] || r.n;
     const tags = getRepoTags(r.n);
-    const isLocked = (tags.special === '偏门' || tags.special === '商业') && !unlockedRepos.has(r.n);
+    const isLocked = (tags.special === 'Niche' || tags.special === 'Commercial') && !unlockedRepos.has(r.n);
     const cardClass = isLocked ? 'project-card locked' : 'project-card';
     const catId = r._catId || (currentCategory ? currentCategory.id : '');
 
-    // 难度标签
+    // Difficulty tags
     let diffTag = '';
     if (tags.difficulty) {
       const diffMap = {
-        '入门': {icon:'🟢', cls:'tag-easy'},
-        '进阶': {icon:'🟡', cls:'tag-medium'},
-        '专业': {icon:'🔴', cls:'tag-hard'}
+        'Beginner': {icon:'🟢', cls:'tag-easy'},
+        'Intermediate': {icon:'🟡', cls:'tag-medium'},
+        'Advanced': {icon:'🔴', cls:'tag-hard'}
       };
       const d = diffMap[tags.difficulty];
       if (d) diffTag = `<span class="diff-tag ${d.cls}">${d.icon} ${tags.difficulty}</span>`;
     }
 
-    // 特殊标签
+    // Special tags
     let specialTag = '';
     if (tags.special) {
       const spMap = {
-        '偏门': {icon:'⚠️', cls:'tag-edge'},
-        '商业': {icon:'💰', cls:'tag-commercial'}
+        'Niche': {icon:'⚠️', cls:'tag-edge'},
+        'Commercial': {icon:'💰', cls:'tag-commercial'}
       };
       const s = spMap[tags.special];
       if (s) specialTag = `<span class="special-tag ${s.cls}">${s.icon} ${tags.special}</span>`;
@@ -347,7 +347,7 @@
 
     return `
       <div class="${cardClass}" data-repo="${escHtml(r.n)}" data-cat="${escHtml(catId)}">
-        ${isLocked ? '<div class="lock-overlay"><button class="unlock-btn">🔓 点击解锁</button><p class="lock-hint">此资源需要解锁后查看详情</p></div>' : ''}
+        ${isLocked ? '<div class="lock-overlay"><button class="unlock-btn">🔓 Click to Unlock</button><p class="lock-hint">Unlock to view details</p></div>' : ''}
         <div class="project-card-top">
           <span class="project-name">
             ${isLocked 
@@ -364,7 +364,7 @@
           ${r.l ? `<span><span class="lang-dot ${langClass}"></span>${escHtml(r.l)}</span>` : ''}
           <span class="subcat-tag">${escHtml(r.sc)}</span>
           ${showCat ? `<span>${escHtml(r._cat||'')}</span>` : ''}
-          ${r.p ? `<span>更新于 ${r.p}</span>` : ''}
+          ${r.p ? `<span>Updated ${r.p}</span>` : ''}
           ${!isLocked ? `<a href="${r.u}" target="_blank" rel="noopener" class="project-link">GitHub ↗</a>` : ''}
         </div>
       </div>
