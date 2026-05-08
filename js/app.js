@@ -1,5 +1,6 @@
 /**
  * 星图 Starmap - SPA Application
+ * History API Router (SEO-friendly)
  */
 (function() {
   'use strict';
@@ -87,7 +88,8 @@
   }
 
   function init() {
-    window.addEventListener('hashchange', router);
+    // History API router
+    window.addEventListener('popstate', router);
     searchInput.addEventListener('input', debounce(onSearch, 300));
     document.addEventListener('keydown', onKeyDown);
     router();
@@ -95,20 +97,28 @@
 
   // ===== Router =====
   function router() {
-    const hash = window.location.hash || '#/';
-    if (hash === '#/' || hash === '#') {
+    const path = window.location.pathname;
+    const search = window.location.search;
+    
+    if (path === '/' || path === '') {
       renderHome();
-    } else if (hash.startsWith('#/category/')) {
-      const id = hash.replace('#/category/', '');
+    } else if (path.startsWith('/category/')) {
+      const id = path.replace('/category/', '');
       renderCategory(id);
-    } else if (hash.startsWith('#/search')) {
-      const params = new URLSearchParams(hash.split('?')[1]);
+    } else if (path === '/search') {
+      const params = new URLSearchParams(search);
       const q = params.get('q') || '';
       searchInput.value = q;
       renderSearch(q);
     } else {
       renderHome();
     }
+  }
+
+  // ===== Navigate helper =====
+  function navigateTo(url) {
+    window.history.pushState({}, '', url);
+    router();
   }
 
   // ===== Get Repo Tags =====
@@ -134,7 +144,7 @@
       </div>
       <div class="category-grid">
         ${cats.map(c => `
-          <a href="#/category/${c.id}" class="category-card">
+          <a href="/category/${c.id}" class="category-card" data-nav>
             <div class="category-icon">${c.icon}</div>
             <div class="category-info">
               <h3>${c.display}</h3>
@@ -144,13 +154,14 @@
         `).join('')}
       </div>
     `;
+    bindNavLinks();
   }
 
   // ===== Render: Category =====
   function renderCategory(catId) {
     currentView = 'category';
     const cat = catalogData.categories.find(c => c.id === catId);
-    if (!cat) { renderHome(); return; }
+    if (!cat) { navigateTo('/'); return; }
     currentCategory = cat;
 
     if (currentSubCat === 'all' || !cat.subCategories.includes(currentSubCat)) {
@@ -162,7 +173,7 @@
 
     app.innerHTML = `
       <div class="category-header">
-        <a href="#/" class="back-link">← Home</a>
+        <a href="/" class="back-link" data-nav>← Home</a>
         <div class="category-title">
           <span class="icon">${cat.icon}</span>
           <h1>${cat.display}</h1>
@@ -196,6 +207,9 @@
       </div>
     `;
 
+    // Bind navigation links
+    bindNavLinks();
+
     // Bind sub-category tabs
     app.querySelectorAll('.subcat-tab').forEach(btn => {
       btn.addEventListener('click', () => {
@@ -220,6 +234,17 @@
 
     // Bind unlock buttons
     bindUnlockButtons();
+  }
+
+  // ===== Bind Navigation Links =====
+  function bindNavLinks() {
+    app.querySelectorAll('a[data-nav]').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const href = link.getAttribute('href');
+        navigateTo(href);
+      });
+    });
   }
 
   // ===== Bind Unlock Buttons =====
@@ -271,7 +296,7 @@
 
     app.innerHTML = `
       <div class="category-header">
-        <a href="#/" class="back-link">← Home</a>
+        <a href="/" class="back-link" data-nav>← Home</a>
       </div>
       <div class="search-info">
         Search "<strong>${escHtml(query)}</strong>" found <strong>${sorted.length}</strong> projects
@@ -281,6 +306,7 @@
         : `<div class="project-list">${sorted.map(r => projectCard(r, true)).join('')}</div>`
       }
     `;
+    bindNavLinks();
     bindUnlockButtons();
   }
 
@@ -402,9 +428,9 @@
   function onSearch() {
     const q = searchInput.value.trim();
     if (q) {
-      window.location.hash = '#/search?q=' + encodeURIComponent(q);
+      navigateTo('/search?q=' + encodeURIComponent(q));
     } else {
-      window.location.hash = '#/';
+      navigateTo('/');
     }
   }
 
